@@ -1,0 +1,37 @@
+<project name="Test_Packaging" default="jar">
+
+	<property name="src" value="src"/>
+	<property name="lib" value="lib"/>
+	<property name="build" value="build/classes"/>
+
+	
+
+	<path id="classpath">
+		<pathelement location="${src}"/>
+		<fileset dir="${lib}"/>
+
+	</path>
+
+	
+
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="false"  compiler="javac1.8">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+
+
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/Hello.jar" basedir="build/classes">
+
+		</jar>
+	</target>
+
+
+</project>

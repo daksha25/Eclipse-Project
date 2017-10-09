@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jaxrs-api.jar/jaxrs-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/api/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jersey-server-1.8 (1).jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jersey-client-1.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/asm-3.1.jar/asm-3.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,271 @@
+package com.cognizant;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelExec;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
+
+public class RunDockerCommand {
+
+    public static void main(String args[]) throws IOException {
+
+        /*String s = null;
+
+        try {
+
+           Process p = Runtime.getRuntime().exec("docker history tomcat:8.0");
+
+            BufferedReader stdInput = new BufferedReader(new
+                 InputStreamReader(p.getInputStream()));
+
+            BufferedReader stdError = new BufferedReader(new
+                 InputStreamReader(p.getErrorStream()));
+
+            // read the output from the command
+            System.out.println("Here is the standard output of the command:\n");
+            while ((s = stdInput.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            // read any errors from the attempted command
+            System.out.println("Here is the standard error of the command (if any):\n");
+            while ((s = stdError.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            System.exit(0);
+        }
+        catch (IOException e) {
+            System.out.println("exception happened - here's what I know: ");
+            e.printStackTrace();
+            System.exit(-1);
+        }*/
+    	
+///run command from window    	
+    	
+        String host="10.242.138.115";
+        String user="root";
+        String password="123root";
+        String strdata = null;
+        String command1="docker history tomcat:8.0";
+        BufferedWriter bw = null;
+		FileWriter fw = null;
+		String Filename="D:\\history1.txt";	
+        try{
+        	File file=new File(Filename);
+        	fw = new FileWriter(file.getAbsoluteFile());
+       		bw = new BufferedWriter(fw);
+                    java.util.Properties config = new java.util.Properties(); 
+                    config.put("StrictHostKeyChecking", "no");
+                    JSch jsch = new JSch();
+                    Session session=jsch.getSession(user, host, 22);
+                    session.setPassword(password);
+                   session.setConfig(config);
+                    session.connect();
+                    System.out.println("Connected");
+                    
+                    Channel channel=session.openChannel("exec");
+            ((ChannelExec)channel).setCommand(command1);
+            channel.setInputStream(null);
+            ((ChannelExec)channel).setErrStream(System.err);
+            
+            InputStream in=channel.getInputStream();
+            channel.connect();
+            byte[] tmp=new byte[1024];
+            while(true){
+            	
+              while(in.available()>0){
+                int i=in.read(tmp, 0, 1024);
+                if(i<0)break;
+               // System.out.print(new String(tmp, 0, i));
+                strdata =  new String(tmp, 0, i);
+                System.out.println(strdata);
+                 bw.write(strdata);
+               			  			
+        		
+              }
+                                 			
+              if(channel.isClosed()){
+              //  System.out.println("exit-status: "+channel.getExitStatus());
+                break;
+              }
+              try{Thread.sleep(1000);}catch(Exception ee){}
+            }
+           
+            
+            channel.disconnect();
+            session.disconnect();
+           // System.out.println("DONE");
+        }catch(Exception e){
+                    e.printStackTrace();
+        }
+
+        bw.close();
+   		fw.close();	
+   		
+   		
+   		//html page
+   		
+   		List<String> command = new ArrayList<String>();
+        List<String> size = new ArrayList<String>();
+        // TODO Auto-generated method stub
+        // String line = "null";
+        // String str;
+
+        PrintStream out1 = new PrintStream(new FileOutputStream("D:\\image.html"));
+        /*
+        * File file = new File("D:\\test.txt"); FileReader fileReader = new
+        * FileReader(file); BufferedReader bufferedReader = new
+        * BufferedReader(fileReader); command<String> command = new
+        * Arraycommand<String>(); while((str = bufferedReader.readLine()) !=
+        * null){ command.add(str); } String[] linesArray = command.toArray(new
+        * String[command.size()]);
+        * 
+         * for (int i = 0; i < command.size(); i++) {
+        * System.out.println(command.get(i)); }
+        */
+        FileInputStream fstream = new FileInputStream(Filename);
+        BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+        String strLine;
+        int index;
+        String out = "";
+        int lastindex;
+        List<String> part1 = new ArrayList<String>();
+
+        while ((strLine = br.readLine()) != null) {
+               // System.out.println(strLine);
+               if (strLine.contains("nop")) {
+                     StringBuilder str = new StringBuilder();
+                     str.append(strLine);
+                     // System.out.println(str);
+                     index = str.indexOf(")");
+                     out = str.substring(index + 2);
+                     // System.out.println(out);
+                     String[] part = out.split(" ");
+
+                     for (int i = 0; i < part.length; i++) {
+                            part1.add(part[i]);
+
+                     }
+                     List<String> output1 = new ArrayList<String>();
+                     for (int i = 0; i < part1.size(); i++) {
+                            if (!part1.get(i).isEmpty()) {
+                                   output1.add(part1.get(i));
+                            }
+                     }
+
+                     // System.out.println(outputdata);
+                     StringBuilder str1 = new StringBuilder();
+                     for (int i = 0; i < output1.size() - 2; i++) {
+                            str1.append(output1.get(i) + " ");
+
+                     }
+                     // System.out.println(str1);
+                     command.add(str1.toString());
+                     lastindex = part1.size();
+                     StringBuilder str2 = new StringBuilder();
+                     str2.append(part1.get(lastindex - 2));
+                     str2.append(part1.get(lastindex - 1));
+                     // System.out.println(str2);
+                     size.add(str2.toString());
+                     part1.clear();
+
+               }
+
+        }
+        for (int i = 0; i < command.size(); i++) {
+               System.out.println(command.get(i));
+        }
+        for (int i = 0; i < size.size(); i++) {
+               System.out.println(size.get(i));
+        }
+        for (int i = 0; i < command.size(); i++) {
+
+               if (command.get(i).contains("FROM")) {
+                     out1.println("<div style=\" background-color: lightgrey;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>    " + size.get(i) + "</div>");
+               }
+               if (command.get(i).contains("RUN")) {
+                     out1.println("<div style=\" background-color:   ;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>    " + size.get(i) + "</div>");
+               }
+               if (command.get(i).contains("ENV")) {
+                     out1.println("<div style=\" background-color: lightgreen;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>    " + size.get(i) + "</div>");
+                     
+               }
+               if (command.get(i).contains("COPY")) {
+                     out1.println("<div style=\" background-color: lightblue;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>   " + size.get(i) + "</div>");
+                     
+               }
+               if (command.get(i).contains("CMD")) {
+                     out1.println("<div style=\" background-color: lightblue;width:300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>   " + size.get(i) + "</div>");
+                     
+               }
+               if (command.get(i).contains("ADD")) {
+                     out1.println("<div style=\" background-color: lightgrey;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>    " + size.get(i) + "</div>");
+                     
+               }
+               if (command.get(i).contains("EXPOSE")) {
+                     out1.println("<div style=\" background-color: silver;width: 300px; padding: 25px;margin: 25px;\">"
+                                   + command.get(i) + "   <br>    " + size.get(i) + "</div>");
+                     
+               }
+
+
+        }
+
+        
+        out1.println("<html>");
+        out1.println("<head>") ;
+        out1.println("<script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>") ;
+        out1.println("<script type=\"text/javascript\">");
+        out1.println("google.charts.load(\"current\", {packages:[\"corechart\"]})");
+        out1.println("google.charts.setOnLoadCallback(drawChart)");
+        //for (int i = 0; i < command.size(); i++) {
+        out1.println ("function drawChart() { var data = google.visualization.arrayToDataTable([");
+                     
+                     //     out1.println("[\"\",");
+                            out1.println("[\'\','"+command.get(0)+"', { role: 'style' } , { role: 'annotation' }],");
+                            for (int j = 0; j < command.size(); j++) {
+                                   if (command.get(j).contains("FROM")) {
+                                          out1.println("['', 12 ,'#b87333', '"+command.get(j)+"'],");
+                                   }
+                                   if (command.get(j).contains("CMD")) {
+                                          out1.println("['', 12 ,'blue', '"+command.get(j)+"'],");
+                                   }
+                                   if (command.get(j).contains("ENV")) {
+                                          out1.println("['', 12 ,'green', '"+command.get(j)+"'],");
+                                   }
+                                   if (command.get(j).contains("ADD")) {
+                                          out1.println("['', 12 ,'lightgrey', '"+command.get(j)+"'],");
+                                   }
+                                   
+                            }
+                            out1.println("]);");
+        out1.println ("var view = new google.visualization.DataView(data);");
+                     //out1.println  ("view.setColumns([0, 1,{ calc: \"stringify\", sourceColumn: 1,type: \"string\", role:\"annotation\" }, 2]);");
+
+                     out1.println ("var options = {title: \"Image Layers\",width: 1000, height: 1000,bar: {groupWidth: \"95%\"}, legend: { position: \"none\" },};");
+              out1.println ("var chart = new google.visualization.BarChart(document.getElementById(\"barchart_values\"));");
+              out1.println ("chart.draw(view, options);");
+              out1.println ("}");
+        out1.println ("</script>");
+        out1.println ("</head>");
+        out1.println ("<body>");
+
+out1.println ("<div id=\"barchart_values\" style=\"width: 900px; height: 300px;\"></div>");
+out1.println ("</body>");
+        out1.println ("</html>");
+
+
+
+
+}}

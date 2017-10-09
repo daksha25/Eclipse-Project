@@ -1,0 +1,7 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace D:\eclipse\eclips projects\jenkins-plugins\clair-docker-scanner\work\jobs\test\workspace
+$ /home/jenkins/analyze-local-images -endpoint http://10.242.138.116:6060 -my-address 10.219.193.100 tomcat:latest
+Exception:java.io.IOException: Cannot run program "/home/jenkins/analyze-local-images": CreateProcess error=2, The system cannot find the file specified
+Archiving artifacts
+ERROR: Scanning failed.
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

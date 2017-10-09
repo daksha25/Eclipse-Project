@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>2.7.2</version>
+  </parent>
+
+  <artifactId>hello-world</artifactId>
+  <version>2.1-SNAPSHOT</version>
+  <packaging>hpi</packaging>
+
+  <name>Hello World Example Plugin</name>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Hello+World+Plugin</url>
+
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <url>https://github.com/jenkinsci/hello-world-plugin/raw/master/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>kohsuke</id>
+      <name>Kohsuke Kawaguchi</name>
+      <email>kk@kohsuke.org</email>
+    </developer>
+    <developer>
+      <id>jieryn</id>
+      <name>Jesse Farinacci</name>
+      <email>jieryn@gmail.com</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/hello-world-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/hello-world-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/hello-world-plugin</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <distributionManagement>
+    <site>
+      <id>github-project-site</id>
+      <url>gitsite:git@github.com/jenkinsci/hello-world-plugin</url>
+    </site>
+  </distributionManagement>
+
+  <properties>
+    <jenkins.version>1.580.1</jenkins.version>
+    <java.level>6</java.level>
+  </properties>
+
+</project>

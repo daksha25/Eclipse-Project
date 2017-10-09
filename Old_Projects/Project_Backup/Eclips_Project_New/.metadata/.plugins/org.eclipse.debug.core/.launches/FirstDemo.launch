@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.codehaus.groovy.eclipse.groovyScriptLaunchConfiguration">
+<stringAttribute key="org.codehaus.groovy.eclipse.launch.runType" value="FirstDemo"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/First"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="D:\eclipse\eclips projects\First\bin"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\lib\groovy-all-2.3.10.jar"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\lib\bsf-2.4.0.jar"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\lib\ivy-2.3.0-sources.jar"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\lib\ivy-2.3.0.jar"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\lib\servlet-api-2.4.jar"/>
+<listEntry value="C:\Users\514740\.groovy\greclipse\global_dsld_support"/>
+<listEntry value="D:\eclipse\eclipse\plugins\org.codehaus.groovy_2.3.10.xx-201604081629-e45\plugin_dsld_support\"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.codehaus.groovy.tools.GroovyStarter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--classpath &quot;${workspace_loc:\First}\src;${workspace_loc:\First}\bin&quot; --main groovy.ui.GroovyMain &quot;${resource_loc:/First/src/FirstDemo.groovy}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="First"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dgroovy.home=&quot;${groovy_home}&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:\First}"/>
+</launchConfiguration>

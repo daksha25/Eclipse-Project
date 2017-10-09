@@ -1,0 +1,109 @@
+package com.cognizant;
+
+import java.io.*;
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelExec;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
+
+
+public class RunDockerCommand {
+
+    public static void main(String args[]) throws IOException {
+
+        /*String s = null;
+
+        try {
+
+           Process p = Runtime.getRuntime().exec("docker history tomcat:8.0");
+
+            BufferedReader stdInput = new BufferedReader(new
+                 InputStreamReader(p.getInputStream()));
+
+            BufferedReader stdError = new BufferedReader(new
+                 InputStreamReader(p.getErrorStream()));
+
+            // read the output from the command
+            System.out.println("Here is the standard output of the command:\n");
+            while ((s = stdInput.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            // read any errors from the attempted command
+            System.out.println("Here is the standard error of the command (if any):\n");
+            while ((s = stdError.readLine()) != null) {
+                System.out.println(s);
+            }
+
+            System.exit(0);
+        }
+        catch (IOException e) {
+            System.out.println("exception happened - here's what I know: ");
+            e.printStackTrace();
+            System.exit(-1);
+        }*/
+    	
+///run command from window    	
+    	
+        String host="10.242.138.115";
+        String user="root";
+        String password="123root";
+        String str = null;
+        String command1="docker history tomcat:8.0";
+        BufferedWriter bw = null;
+		FileWriter fw = null;
+		String Filename="D:\\history1.txt";	
+        try{
+        	File file=new File(Filename);
+        	fw = new FileWriter(file.getAbsoluteFile());
+       		bw = new BufferedWriter(fw);
+                    java.util.Properties config = new java.util.Properties(); 
+                    config.put("StrictHostKeyChecking", "no");
+                    JSch jsch = new JSch();
+                    Session session=jsch.getSession(user, host, 22);
+                    session.setPassword(password);
+                   session.setConfig(config);
+                    session.connect();
+                    System.out.println("Connected");
+                    
+                    Channel channel=session.openChannel("exec");
+            ((ChannelExec)channel).setCommand(command1);
+            channel.setInputStream(null);
+            ((ChannelExec)channel).setErrStream(System.err);
+            
+            InputStream in=channel.getInputStream();
+            channel.connect();
+            byte[] tmp=new byte[1024];
+            while(true){
+            	
+              while(in.available()>0){
+                int i=in.read(tmp, 0, 1024);
+                if(i<0)break;
+               // System.out.print(new String(tmp, 0, i));
+                str =  new String(tmp, 0, i);
+                System.out.println(str);
+                 bw.write(str);
+               			  			
+        		
+              }
+                                 			
+              if(channel.isClosed()){
+              //  System.out.println("exit-status: "+channel.getExitStatus());
+                break;
+              }
+              try{Thread.sleep(1000);}catch(Exception ee){}
+            }
+           
+            
+            channel.disconnect();
+            session.disconnect();
+           // System.out.println("DONE");
+        }catch(Exception e){
+                    e.printStackTrace();
+        }
+
+        bw.close();
+   		fw.close();	
+    }
+}
+

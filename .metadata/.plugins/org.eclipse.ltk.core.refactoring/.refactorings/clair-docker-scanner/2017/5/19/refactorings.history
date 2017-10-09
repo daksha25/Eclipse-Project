@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Values_File.java&apos; to &apos;Docker Security Scanner/src/main/java/org.jenkinsci.plugins.clairdockerscannerbuildstep&apos;&#x0D;&#x0A;- Original project: &apos;clair-docker-scanner&apos;&#x0D;&#x0A;- Destination element: &apos;Docker Security Scanner/src/main/java/org.jenkinsci.plugins.clairdockerscannerbuildstep&apos;&#x0D;&#x0A;- Original element: &apos;org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File.java&apos;" description="Copy compilation unit" destination="=Docker Security Scanner/src\/main\/java&lt;org.jenkinsci.plugins.clairdockerscannerbuildstep" element1="/src\/main\/java&lt;org.jenkinsci.plugins.clairdockerscannerbuildstep{Values_File.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494502313232" units="1" version="1.0"/>
+</session>

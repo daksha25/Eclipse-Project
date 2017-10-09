@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1490877722962" analysisTimestamp="1490877717186" release="">
+  <Project projectName="clair-docker-scanner_1">
+    <Jar>D:\new1\jenkins-plugins\clair-docker-scanner_1\bin</Jar>
+    <AuxClasspathEntry>D:\new1\jenkins-plugins\clair-docker-scanner_1\bin</AuxClasspathEntry>
+    <SrcDir>D:\new1\jenkins-plugins\clair-docker-scanner_1</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 30 Mar 2017 18:11:57 +0530" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="1.90" clock_seconds="5.78" peak_mbytes="428.20" alloc_mbytes="494.94" gc_seconds="0.11">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="2915" invocations="2" avgMicrosecondsPerInvocation="1457764" maxMicrosecondsPerInvocation="2224134" standardDeviationMircosecondsPerInvocation="766370"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2416" invocations="150" avgMicrosecondsPerInvocation="16112" maxMicrosecondsPerInvocation="91079" standardDeviationMircosecondsPerInvocation="22946"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1490877722962" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

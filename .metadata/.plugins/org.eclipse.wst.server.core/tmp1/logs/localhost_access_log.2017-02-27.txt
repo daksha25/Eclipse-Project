@@ -1,0 +1,5 @@
+127.0.0.1 - - [27/Feb/2017:10:26:26 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [27/Feb/2017:10:26:31 +0530] "POST /RESTfulExample/rest/json/metallica/post HTTP/1.1" 500 5615
+0:0:0:0:0:0:0:1 - - [27/Feb/2017:10:26:40 +0530] "POST /RESTfulExample/rest/json/metallica/post HTTP/1.1" 500 5615
+0:0:0:0:0:0:0:1 - - [27/Feb/2017:10:26:45 +0530] "GET /RESTfulExample/WEB-INF/classes/com/mkyong/Track_List.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [27/Feb/2017:10:26:52 +0530] "POST /RESTfulExample/rest/json/metallica/post HTTP/1.1" 500 5065

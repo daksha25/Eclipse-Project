@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FirstWebService">
+        <property name="context-root" value="FirstWebService"/>
+        <property name="java-output-path" value="/FirstWebService/build/classes"/>
+    </wb-module>
+</project-modules>

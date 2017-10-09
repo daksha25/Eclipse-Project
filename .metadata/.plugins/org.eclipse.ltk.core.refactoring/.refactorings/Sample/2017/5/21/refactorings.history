@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Sample&apos;&#x0D;&#x0A;- Original project: &apos;Sample&apos;&#x0D;&#x0A;- Original element: &apos;Sample/target.classes.com.cognizant.Sample&apos;" description="Delete element" element1="/&lt;target.classes.com.cognizant.Sample" element2="/&lt;target.classes.com.cognizant" element3="/&lt;target.classes.com" element4="/&lt;target.classes" element5="/&lt;target" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1495610855318" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+com\plugin\postbuild_test\MongorDbrestore.stapler
+com\plugin\postbuild_test\MongorDbrestore$DescriptorImpl.class
+com\plugin\postbuild_test\MongorDbrestore.class
+META-INF\annotations\hudson.Extension

@@ -1,0 +1,28 @@
+
+package com.test1;
+import java.io.FileInputStream;
+
+import org.antlr.v4.runtime.ANTLRFileStream;
+import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+
+import com.test.javaParser;
+import com.test.javaParser.InterfaceMethodDeclarationContext;
+import com.cognizant.Test;
+import com.test.Java8Lexer;
+
+public class sample {
+
+	public static void main(String[] args) {
+		
+		Java8Lexer lexer = new Java8Lexer(new ANTLRFileStream("D:\\eclipse\\eclips projects\\Parser_Handson\\src\\Parser\\Parser_Handson.java"));
+		javaParser parser = new javaParser(new CommonTokenStream(lexer));
+        InterfaceMethodDeclarationContext s=parser.interfaceMethodDeclaration();
+        System.out.println(s);
+        
+	  }
+	  
+       
+	}
+
+

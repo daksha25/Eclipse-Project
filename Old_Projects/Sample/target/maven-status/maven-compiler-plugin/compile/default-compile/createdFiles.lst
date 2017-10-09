@@ -1,0 +1,5 @@
+com\cognizant\Sample\HelloWorldBuilder\DescriptorImpl\doCheckName.stapler
+com\cognizant\Sample\HelloWorldBuilder.class
+com\cognizant\Sample\HelloWorldBuilder.stapler
+META-INF\annotations\hudson.Extension
+com\cognizant\Sample\HelloWorldBuilder$DescriptorImpl.class

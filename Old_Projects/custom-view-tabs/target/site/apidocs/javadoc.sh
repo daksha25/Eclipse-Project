@@ -1,0 +1,1 @@
+/usr/local/java/jdk1.8.0_111/jre/../bin/javadoc -J-Dhttp.proxySet=true -J-Dhttp.proxyHost=10.237.69.140 -J-Dhttp.proxyPort=6050 "-J-Dhttp.nonProxyHosts=\"10.*\"" "-J-Dhttp.proxyUser=\"600877\"" "-J-Dhttp.proxyPassword=\"Bh@rath008\"" @options @packages

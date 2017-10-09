@@ -1,0 +1,5 @@
+com\plugin\postbuild_test\PostBuilder\DescriptorImpl\doCheckName.stapler
+com\plugin\postbuild_test\PostBuilder.stapler
+com\plugin\postbuild_test\PostBuilder$DescriptorImpl.class
+com\plugin\postbuild_test\PostBuilder.class
+META-INF\annotations\hudson.Extension

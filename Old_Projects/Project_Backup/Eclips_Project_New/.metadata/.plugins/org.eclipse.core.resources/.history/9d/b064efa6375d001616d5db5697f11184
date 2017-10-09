@@ -1,0 +1,24 @@
+
+import java.sql.*;
+
+
+public class DBConnect 
+
+{
+
+	   private Connection conn;
+	   private Statement stmt;
+	   private ResultSet res;
+
+
+public DBConnect(){
+	   try{
+		   Class.forName("com.mysql.jdbc.Driver");
+	   }
+	   catch(Exception e){
+		   
+		   System.out.println(e);
+	   }
+	   
+}
+}

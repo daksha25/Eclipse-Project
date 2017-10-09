@@ -1,0 +1,4 @@
+1500884938342	Delete resource 'GetIssueid_Jira'
+1500884943320	Delete resource 'TriggerJenkins_Build'
+1500884950415	Delete resource 'TriggerJenkinsJob'
+1500884955074	Delete resource 'Jira_Issueid'

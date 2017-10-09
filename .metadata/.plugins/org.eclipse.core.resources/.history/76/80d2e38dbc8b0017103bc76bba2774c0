@@ -1,0 +1,167 @@
+package com.cognizant;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelExec;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
+
+public class RunDockerCommand {
+
+	public static void main(String args[]) throws IOException {
+
+		String host = "10.242.138.105";
+		String user = "root";
+		String password = "123root";
+		String strdata = null;
+		String command1 = "docker history ubuntu:latest";
+		BufferedWriter bw = null;
+		FileWriter fw = null;
+		String Filename = "D:\\Documents\\Plugin_and _Utility\\Jenkins_Plugin\\Clair_Plugin\\enhancement\\history1.txt";
+		try {
+			File file = new File(Filename);
+			fw = new FileWriter(file.getAbsoluteFile());
+			bw = new BufferedWriter(fw);
+			java.util.Properties config = new java.util.Properties();
+			config.put("StrictHostKeyChecking", "no");
+			JSch jsch = new JSch();
+			Session session = jsch.getSession(user, host, 22);
+			session.setPassword(password);
+			session.setConfig(config);
+			session.connect();
+			System.out.println("Connected");
+
+			Channel channel = session.openChannel("exec");
+			((ChannelExec) channel).setCommand(command1);
+			channel.setInputStream(null);
+			((ChannelExec) channel).setErrStream(System.err);
+
+			InputStream in = channel.getInputStream();
+			channel.connect();
+			byte[] tmp = new byte[1024];
+			while (true) {
+
+				while (in.available() > 0) {
+					int i = in.read(tmp, 0, 1024);
+					if (i < 0)
+						break;
+					// System.out.print(new String(tmp, 0, i));
+					strdata = new String(tmp, 0, i);
+					// System.out.println(strdata);
+					bw.write(strdata);
+
+				}
+
+				if (channel.isClosed()) {
+					// System.out.println("exit-status:
+					// "+channel.getExitStatus());
+					break;
+				}
+				try {
+					Thread.sleep(1000);
+				} catch (Exception ee) {
+				}
+			}
+
+			channel.disconnect();
+			session.disconnect();
+			// System.out.println("DONE");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		bw.close();
+		fw.close();
+
+		List<String> command = new ArrayList<String>();
+		List<String> size = new ArrayList<String>();
+		// TODO Auto-generated method stub
+		String line = "null";
+		// String str;
+
+		PrintStream out1 = new PrintStream(new FileOutputStream("D:\\Documents\\Plugin_and _Utility\\Jenkins_Plugin\\Clair_Plugin\\enhancement\\image.html"));
+
+		File file = new File(Filename);
+		FileReader fileReader = new FileReader(file);
+		BufferedReader bufferedReader = new BufferedReader(fileReader);
+	
+
+		FileInputStream fstream = new FileInputStream(Filename);
+		BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+		String strLine;
+		int index;
+		String out = "";
+		int lastindex;
+		List<String> part1 = new ArrayList<String>();
+		List<String> sizeoflayer = new ArrayList<String>();
+		double sizeOfimage=0;
+		
+		List<String> command2=new ArrayList<String>();
+		while ((strLine = br.readLine()) != null) {
+			// System.out.println(strLine);
+			if (strLine.contains("nop")) {
+				StringBuilder str = new StringBuilder();
+				str.append(strLine);
+				List<String> id=new ArrayList<String>();
+				String arr[]=strLine.split("\t");
+				//for (int i = 0; i < arr.length; i++) {
+					//System.out.println("data"+arr[0]);
+				//}
+				id.add(strLine);
+				 System.out.println(id.get(0));
+				index = str.indexOf(")");
+				out = str.substring(index + 2);
+				
+				String[] part = out.split(" ");
+
+				for (int i = 0; i < part.length; i++) {
+					part1.add(part[i]);
+
+				}
+				
+				List<String> output1 = new ArrayList<String>();
+				for (int i = 0; i < part1.size(); i++) {
+					if (!part1.get(i).isEmpty()) {
+						output1.add(part1.get(i));
+					}
+				}
+				// System.out.println(outputdata);
+				StringBuilder str1 = new StringBuilder();
+				for (int i = 0; i < output1.size() - 2; i++) {
+					str1.append(output1.get(i) + " ");
+
+				}
+				command2.add(str1.toString());
+			
+				lastindex = part1.size();
+				StringBuilder str2 = new StringBuilder();
+				str2.append(part1.get(lastindex - 2));
+				str2.append(part1.get(lastindex - 1));
+				//System.out.println(str2);
+				size.add(str2.toString());
+				sizeoflayer.add(part1.get(lastindex - 2)); //size of layers
+								part1.clear();
+							}
+			
+		}
+		
+		//System.out.println(command2);
+		
+		//total size of image
+		for (int i = 0; i < sizeoflayer.size(); i++) {
+			sizeOfimage=sizeOfimage+Double.parseDouble(sizeoflayer.get(i));
+		}
+		//System.out.println(sizeOfimage);
+		
+		
+			
+		
+	}}
+	
+	
+

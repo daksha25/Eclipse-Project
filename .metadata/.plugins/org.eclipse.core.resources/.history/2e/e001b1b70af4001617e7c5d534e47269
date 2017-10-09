@@ -1,0 +1,31 @@
+
+package com.test1;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.antlr.v4.runtime.ANTLRFileStream;
+import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+
+import com.test.javaParser;
+import com.test.javaParser.InterfaceMethodDeclarationContext;
+import com.cognizant.Test;
+import com.test.Java8Lexer;
+
+public class sample {
+
+	public static void main(String[] args) throws IOException {
+		FileInputStream fs=new FileInputStream("D:\\eclipse\\eclips projects\\Parser_Handson\\src\\com\\test\\Java8Lexer.java");
+		BufferedReader br =new BufferedReader(new InputStreamReader(fs));
+		while(br.readLine()!=null)
+		{
+			
+		}
+	  }
+	  
+       
+	}
+
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.plugin"/>
+			<item value="com.cognizant"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MongoDB_RestorePlugin"/>
+			<item value="plugintest2"/>
+			<item value="Plugintest1"/>
+			<item value="test3"/>
+			<item value="MongoPlugin_test"/>
+			<item value="MongoDB_test"/>
+			<item value="Mongo_test"/>
+			<item value="MongoDbPlugin_Test"/>
+			<item value="Mongo_DB"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+			<item value="https://travis-ci.org/jpetstore/guice"/>
+		</list>
+		<list key="ciManagementSystem">
+			<item value="Travis CI"/>
+		</list>
+		<list key="issueManagementSystem">
+			<item value="GitHub Issue Management"/>
+		</list>
+		<list key="issueManagementUrl">
+			<item value="https://github.com/mybatis/jpetstore/issues"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item value="480" key="width"/>
+		<item value="521" key="x"/>
+		<item value="102" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="480" key="x"/>
+		<item value="130" key="y"/>
+		<item value="528" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\eclipse\eclips projects\Plugins_jenkins\Backup\postbuild_test"/>
+			<item value="D:\eclipse\eclips projects\postbuild_test"/>
+			<item value="D:\apache-maven-3.1.1\bin\postbuild_test"/>
+			<item value="D:\eclipse\eclips projects\MongoDB_Plugin"/>
+			<item value="D:\eclipse\MongoDB_Plugin"/>
+			<item value="D:\eclipse\eclips projects\PostbuildPlugin_test"/>
+			<item value="C:\Users\514740\Downloads\hello-world-plugin-master"/>
+			<item value="C:\Users\514740\Downloads\hello-world-plugin"/>
+			<item value="C:\Users\514740\Downloads\hello-world\hello-world-plugin-master"/>
+			<item value="C:\Users\514740\Downloads\hello-world"/>
+			<item value="D:\eclipse\eclips projects\SonarProject"/>
+			<item value="D:\apache-maven-3.1.1\bin\hello_postbuild"/>
+			<item value="D:\Documents\ui-samples-plugin-master (1)\ui-samples-plugin-master"/>
+			<item value="D:\Documents\jenkins-sample-plugin-master\jenkins-sample-plugin-master"/>
+			<item value="D:\Documents\hello-world-plugin-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="Child_Main"/>
+			<item value="Restore_Mongodb"/>
+			<item value="Backup_Mongodb"/>
+			<item value="MongoDbUtility"/>
+			<item value="MongoDbTaskUtility"/>
+			<item value="MongoDB_Utility"/>
+			<item value="DB_Restore"/>
+			<item value="DB_Backup"/>
+			<item value="MongoDB_Backup"/>
+			<item value="Restore_db"/>
+			<item value="Backup_Alldb"/>
+			<item value="Backup_Singledb"/>
+			<item value="BackUp_All"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="JavatoMVNapp.com"/>
+			<item value="Test_Maven"/>
+			<item value="soanrrestapi"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="JavatoMVN"/>
+			<item value="Test_Maven"/>
+			<item value="soanrrestapi"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Documents\Utility\MongoDB"/>
+			<item value="D:\eclipse\eclips projects\MongoDB_Plugin"/>
+			<item value="D:\Documents\hello-world-plugin-master\hello-world-plugin-master"/>
+			<item value="D:\Documents\Utility\MYSQL\MYSQLUtility\src\main\java\com\cognizant\MYSQL\MYSQLTaskUtility.java"/>
+			<item value="D:\eclipse\eclips projects\Restore_MySqldatabase"/>
+			<item value="D:\eclipse\eclips projects\Mongodb_backup\src\main\java\com\cognizant\Mongodb_Backup.java"/>
+			<item value="D:\eclipse\eclips projects\DatabaseBackup\src\Test.java"/>
+			<item value="D:\eclipse\eclips projects\Backup_Mysql\src\main\java\com\cognizant\Backup.java"/>
+			<item value="D:\eclipse\eclips projects\Backup_Mysql"/>
+			<item value="D:\Maven_Project"/>
+			<item value="D:\eclipse\eclips projects"/>
+			<item value="D:\eclipse\eclips projects\CodeCoverage\pom.xml"/>
+			<item value="D:\eclipse\eclips projects\json_job_creation\src\main\java\com\cognizant\json_job_creation\JenkinsCreateJob.java"/>
+			<item value="D:\eclipse\eclips projects\Test"/>
+			<item value="D:\eclipse\eclips projects\Test3"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

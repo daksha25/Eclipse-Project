@@ -1,0 +1,41 @@
+<project name="TestPackaging" default="ear">
+
+	<property name="src" value="src"/>
+	<property name="lib" value="lib"/>
+	<property name="build" value="build/classes"/>
+
+		<path id="classpath">
+		<pathelement location="${src}"/>
+		<fileset dir="${lib}"/>
+	</path>
+
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="src/main/java/org/test" destdir="${build}" includeantruntime="false"  compiler="javac1.8">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/Hello.jar" basedir="build/classes">
+		</jar>
+	</target>
+	<target name="war" depends="jar">
+		<mkdir dir="build/war" />
+			<war destfile="build/war/Hello.war" webxml="${src}/main/webapp/WEB-INF/web.xml">
+			  <lib dir="${lib}" />
+			  <classes dir="${build}"/>
+			  <zipfileset dir="${build}"  /> 
+			</war>
+		</target>
+<target name="ear" depends="war">
+	<mkdir dir="build/ear" />
+			<ear destfile="build/ear/Hello.ear" appxml="${src}/main/webapp/WEB-INF/applicationContext.xml">
+				<fileset dir="${build}" includes="*.war" />
+			</ear>
+		</target>
+	</project>

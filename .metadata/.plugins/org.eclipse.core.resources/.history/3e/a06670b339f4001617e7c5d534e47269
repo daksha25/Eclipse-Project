@@ -1,0 +1,60 @@
+
+package com.test1;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.tree.ParseTree;
+import org.antlr.v4.runtime.tree.ParseTreeWalker;
+
+import com.test.Java8Lexer;
+import com.test.javaBaseListener;
+import com.test.javaParser;
+import com.test.javaParser.MethodNameContext;
+
+/**
+ * @author Leonardo Kenji Feb 4, 2014
+ */
+public class sample extends javaBaseListener
+{
+//JavaBaseVisitor<Void> {
+
+    /**
+     * Main Method
+     * 
+     * @param args
+     * @throws IOException
+     */
+    public static void main(String[] args) throws IOException {
+        ANTLRInputStream input = new ANTLRInputStream(new FileInputStream("D:\\eclipse\\eclips projects\\Parser_Handson\\src\\Parser\\Parser_Handson.java")); // we'll
+                                                                                                                                                    // parse
+                                                                                                                                                    // this
+                                                                                                                                                    // file
+        Java8Lexer lexer = new Java8Lexer(input);
+        CommonTokenStream tokens = new CommonTokenStream(lexer);
+        javaParser parser = new javaParser(tokens);
+        ParseTree tree = parser.compilationUnit(); // see the grammar ->
+                                                    // starting point for
+                                                    // parsing a java file
+
+
+
+        sample visitor = new sample(); // extends JavaBaseVisitor<Void>
+                                                // and overrides the methods
+                                                // you're interested
+       // visitor.visit(tree);
+       // visitor.visitMyMethodName(ctx);
+    }
+
+    /**
+     * some attribute comment
+     */
+    private String  someAttribute;
+
+    public Void visitMyMethodName(MethodNameContext ctx) {
+        System.out.println("Method name:" + ctx.getText());
+        return super.visitMyMethodName(ctx);
+    }
+
+}

@@ -1,0 +1,21 @@
+package com.cognizant;
+
+
+import java.io.IOException;
+
+public class Mongodb_Backup {
+ 
+    //This is Example that display how to run exe using java
+    public static void main(String args[])
+    {
+        String filePath = "C:\\Program Files\\MongoDB 2.6 Standard\\bin\\mongodump.exe --out /data/backup1/";
+        try {
+             
+            Process p = Runtime.getRuntime().exec(filePath);
+             
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+         
+    }
+}

@@ -1,0 +1,36 @@
+
+public class Main 
+	
+	{
+		public static void main(String args[])
+		{
+//		{
+//			DBConnect connect =new DBConnect();
+//			connect.getdata();
+//		}
+//		}
+String path = "D:/databasebackup/databasbac.sql";
+String username = "root";
+String password = "";
+String dbname = "rac";
+String executeCmd = "<Path to MySQL>/bin/mysqldump -u " + username + " -p" + password + " --all--databases  " + dbname + " -r " + path;
+Process runtimeProcess;
+try {
+//    System.out.println(executeCmd);//this out put works in mysql shell
+    runtimeProcess = Runtime.getRuntime().exec(new String[] { "cmd.exe", "/c", executeCmd });
+    System.out.println(executeCmd);
+//    runtimeProcess = Runtime.getRuntime().exec(executeCmd);
+    int processComplete = runtimeProcess.waitFor();
+    System.out.println("processComplete"+processComplete);
+    if (processComplete == 0) {
+        System.out.println("Backup created successfully");
+
+    } else {
+        System.out.println("Could not create the backup");
+    }
+} catch (Exception ex) {
+    ex.printStackTrace();
+}
+
+}
+}

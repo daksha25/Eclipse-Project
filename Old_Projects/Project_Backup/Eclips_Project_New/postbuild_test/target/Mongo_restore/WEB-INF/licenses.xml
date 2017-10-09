@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='com.plugin' artifactId='Mongo_restore' version='1.0-SNAPSHOT'><l:dependency name='MongoDB_Restore Plugin' groupId='com.plugin' artifactId='Mongo_restore' version='1.0-SNAPSHOT' url='https://wiki.jenkins-ci.org/display/JENKINS/MongoDB_Restore+Plugin'><l:description>MongoDB_Restore</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

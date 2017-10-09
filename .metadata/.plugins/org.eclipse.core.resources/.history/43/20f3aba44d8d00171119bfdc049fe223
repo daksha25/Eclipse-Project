@@ -1,0 +1,31 @@
+package com.cognizant;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.Properties;
+public class GetData {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		FileInputStream fis = new FileInputStream("D:\\Layer_data.properties");
+		System.out.println("file input stream is" + fis);
+		Properties props = new Properties();
+		props.load(fis);
+		Set<Object> keys = props.keySet();
+		// System.out.println("keys are "+keys);
+		List<Object> listKeys1 = new ArrayList<Object>();
+		listKeys1.addAll(keys);
+		System.out.println("lisetkeys 1 is "+listKeys1);
+		/*List<Integer> listKeys = new ArrayList<Integer>();
+		for (Object object : listKeys1) {
+			String obj = object.toString();
+			Integer intobj = Integer.parseInt(obj);
+			listKeys.add(intobj);
+		}*/
+	}
+
+}

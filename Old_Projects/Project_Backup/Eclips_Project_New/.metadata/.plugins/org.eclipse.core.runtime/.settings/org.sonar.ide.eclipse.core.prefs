@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+servers/default/auth=true
+servers/default/url=http\://localhost\:9000
+servers/initialized=true

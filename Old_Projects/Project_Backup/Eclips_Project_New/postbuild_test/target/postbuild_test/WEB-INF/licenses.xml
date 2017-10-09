@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='com.plugin' artifactId='postbuild_test' version='1.0-SNAPSHOT'><l:dependency name='Postbuild_test Plugin' groupId='com.plugin' artifactId='postbuild_test' version='1.0-SNAPSHOT' url='https://wiki.jenkins-ci.org/display/JENKINS/Postbuild_test+Plugin'><l:description>Postbuild_test</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/resteasy-jackson-provider-2.2.1.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jackson-xc-1.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jackson-core-asl-1.6.3 (1).jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jackson-core-asl-1.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jackson-jaxrs-1.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/resteasy-multipart-provider-2.2.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/resteasy-jaxb-provider-2.2.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/apache-mime4j-0.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/stax-api-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/resteasy-jaxrs-2.2.1.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Downloads/jaxrs-api-2.2.1.GA.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

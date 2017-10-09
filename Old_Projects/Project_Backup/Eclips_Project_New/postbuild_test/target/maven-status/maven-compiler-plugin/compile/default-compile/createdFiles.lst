@@ -1,0 +1,4 @@
+com\plugin\postbuild_test\HelloWorldBuilder.stapler
+com\plugin\postbuild_test\HelloWorldBuilder$DescriptorImpl.class
+com\plugin\postbuild_test\HelloWorldBuilder.class
+META-INF\annotations\hudson.Extension

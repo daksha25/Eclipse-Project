@@ -1,0 +1,23 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:sv="/lib/sectioned_view" xmlns:f="/lib/form" xmlns:i="jelly:fmt">
+  <l:layout title="${it.title}">
+    <l:main-panel>
+      <h1>${it.heading}</h1>
+      <j:if test="${it.jobMap.isEmpty()}">
+        Please define mapping <a href="${app.rootUrl}configure">here</a>.
+      </j:if>
+      <j:if test="${!it.jobMap.isEmpty()}">
+        <table style="border:1px solid black;border-collapse:collapse;">
+          <tr style="background-color: indianred;">
+            <td style="border:1px solid black; " width="10%">Serial No.</td><td style="border:1px solid black;" width="40%">Name</td><td style="border:1px solid black;" width="40%">Description</td><td style="border:1px solid black;" width="10%"></td>
+          </tr>
+          <j:forEach var="ix" begin="0" end="${it.jobMap.size()-1}">
+            <tr>
+              <td style="border:1px solid black;">${ix+1}</td><td style="border:1px solid black;">${it.jobMap.get(ix).get(0)}</td><td style="border:1px solid black;">${it.jobMap.get(ix).get(1)}</td><td style="border:1px solid black;"><a href="${app.rootUrl}job/${it.jobMap.get(ix).get(2)}/build?delay=0sec">Link</a></td>
+            </tr>
+			 
+          </j:forEach>
+        </table>
+      </j:if>
+    </l:main-panel>
+  </l:layout>
+</j:jelly>

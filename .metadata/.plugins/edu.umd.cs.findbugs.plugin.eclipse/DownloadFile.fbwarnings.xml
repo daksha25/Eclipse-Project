@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="4" timestamp="1475743887480" analysisTimestamp="1475743870425" release="">
+  <Project projectName="DownloadFile">
+    <Jar>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\classes\com\cognizant\DownloadFile\DownloadFilesBuilder$DescriptorImpl.class</Jar>
+    <Jar>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\classes\com\cognizant\DownloadFile\DownloadFilesBuilder.class</Jar>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\log4j\log4j\1.2.15\log4j-1.2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\httpcache4j\resolvers\resolvers-net-urlconnection\1.6\resolvers-net-urlconnection-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\httpcache4j\httpcache4j-api\1.6\httpcache4j-api-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\joda-time\joda-time\1.5.2\joda-time-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpmime\4.3.6\httpmime-4.3.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\mashape\unirest\unirest-java\1.4.7\unirest-java-1.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy-json\2.4.7\groovy-json-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy\2.4.7\groovy-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\json\json\20160212\json-20160212.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.0.2\httpasyncclient-4.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.3.2\httpcore-nio-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpclient\4.4\httpclient-4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpcore\4.4\httpcore-4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\annotations\3.0.0\annotations-3.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-core\1.625.3\jenkins-core-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\plugins\icon-shim\icon-set\1.0.5\icon-set-1.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\remoting\2.53.2\remoting-2.53.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\constant-pool-scanner\1.2\constant-pool-scanner-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\cli\1.625.3\cli-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\version-number\1.1\version-number-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\crypto-util\1.1\crypto-util-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\jtidy\4aug2000r7-dev-hudson-1\jtidy-4aug2000r7-dev-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\inject\guice\4.0-beta\guice-4.0-beta.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jruby\ext\posix\jna-posix\1.0.3-jenkins-1\jna-posix-1.0.3-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-posix\3.0.1\jnr-posix-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-ffi\1.0.7\jnr-ffi-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7-native.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-commons\4.0\asm-commons-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-analysis\4.0\asm-analysis-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-tree\4.0\asm-tree-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-util\4.0\asm-util-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-constants\0.8.5\jnr-constants-0.8.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\trilead-putty-extension\1.2\trilead-putty-extension-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\trilead-ssh2\build217-jenkins-8\trilead-ssh2-build217-jenkins-8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-groovy\1.237\stapler-groovy-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jelly\1.237\stapler-jelly-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20120928\commons-jelly-1.1-jenkins-20120928.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\dom4j\dom4j\1.6.1-jenkins-4\dom4j-1.6.1-jenkins-4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jrebel\1.237\stapler-jrebel-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler\1.237\stapler-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-discovery\commons-discovery\0.4\commons-discovery-0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\tiger-types\1.3\tiger-types-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\windows-package-checker\1.0\windows-package-checker-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-zeroclipboard\1.3.5-1\stapler-adjunct-zeroclipboard-1.3.5-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.4\stapler-adjunct-timeline-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\infradna\tool\bridge-method-annotation\1.13\bridge-method-annotation-1.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-2\json-lib-2.4-jenkins-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\args4j\args4j\2.0.31\args4j-2.0.31.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\annotation-indexer\1.7\annotation-indexer-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\bytecode-compatibility-transformer\1.5\bytecode-compatibility-transformer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\asm5\5.0.1\asm5-5.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\task-reactor\1.4\task-reactor-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\localizer\localizer\1.23\localizer-1.23.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\xstream\1.4.7-jenkins-1\xstream-1.4.7-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant\1.8.4\ant-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant-launcher\1.8.4\ant-launcher-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-compress\1.10\commons-compress-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\activation\1.1.1-hudson-1\activation-1.1.1-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jaxen\jaxen\1.1-beta-11\jaxen-1.1-beta-11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\acegisecurity\acegi-security\1.0.7\acegi-security-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-jdbc\1.2.9\spring-jdbc-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-dao\1.2.9\spring-dao-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy-all\1.8.9\groovy-all-1.8.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\fusesource\jansi\jansi\1.9\jansi-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-webmvc\2.5.6.SEC03\spring-webmvc-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-beans\2.5.6.SEC03\spring-beans-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context\2.5.6.SEC03\spring-context-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context-support\2.5.6.SEC03\spring-context-support-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-web\2.5.6.SEC03\spring-web-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-core\2.5.6.SEC03\spring-core-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-aop\2.5.6.SEC03\spring-aop-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\jstl\1.1.0\jstl-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\winp\winp\1.22\winp-1.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\memory-monitor\1.9\memory-monitor-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.9\wstx-asl-3.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\jmdns\3.4.0-jenkins-3\jmdns-3.4.0-jenkins-3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\akuma\1.10\akuma-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\libpam4j\1.8\libpam4j-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\libzfs\libzfs\0.5\libzfs-0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\sezpoz\sezpoz\1.9\sezpoz-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.6-kohsuke-1\j-interop-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.6-kohsuke-1\j-interopdeps-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\samba\jcifs\jcifs\1.2.19\jcifs-1.2.19.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\access-modifier-annotation\1.4\access-modifier-annotation-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-fileupload\commons-fileupload\1.3.1-jenkins-1\commons-fileupload-1.3.1-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mindrot\jbcrypt\0.3m\jbcrypt-0.3m.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-war\1.625.3\jenkins-war-1.625.3-war-for-test.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\instance-identity\1.4\instance-identity-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.47\bcpkix-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.47\bcprov-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\ssh-cli-auth\1.2\ssh-cli-auth-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\slave-installer\1.5\slave-installer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\windows-slave-installer\1.4\windows-slave-installer-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\launchd-slave-installer\1.2\launchd-slave-installer-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\upstart-slave-installer\1.1\upstart-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\systemd-slave-installer\1.1\systemd-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\sshd\1.6\sshd-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\sshd\sshd-core\0.8.0\sshd-core-0.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\mina\mina-core\2.0.5\mina-core-2.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2.13\jenkins-test-harness-2.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-webapp\9.2.15.v20160210\jetty-webapp-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-xml\9.2.15.v20160210\jetty-xml-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-servlet\9.2.15.v20160210\jetty-servlet-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-security\9.2.15.v20160210\jetty-security-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-server\9.2.15.v20160210\jetty-server-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-http\9.2.15.v20160210\jetty-http-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-test-harness-htmlunit\2.18-1\jenkins-test-harness-htmlunit-2.18-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\embedded-rhino-debugger\1.2\embedded-rhino-debugger-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE72\org-netbeans-insane-RELEASE72.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\lib\lib-jenkins-maven-embedder\3.11\lib-jenkins-maven-embedder-3.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model\3.1.0\maven-model-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-compat\3.1.0\maven-compat-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-embedder\3.1.0\maven-embedder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-cipher\1.7\plexus-cipher-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-connector-wagon\0.9.0.M2\aether-connector-wagon-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.1.0\org.eclipse.sisu.plexus-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.1.0\org.eclipse.sisu.inject-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4\plexus-classworlds-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-utils\2.1\plexus-utils-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\test-annotations\1.2\test-annotations-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.7\jcl-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-jdk14\1.7.7\slf4j-jdk14-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\514740\Downloads\hudson-core-3.0.0.jar\hudson-core-3.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\commons-io-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\json-simple-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\org.json.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\org-apache-commons-codec.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\generated-sources\localizer</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\target\generated-test-sources\injected</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\src\test\java</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\src\main\resources</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\DownloadFile_Git\DownloadFiles\src\main\java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="filecreate" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="233" end="305" startBytecode="0" endBytecode="223" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <LocalVariable name="response" register="19" pc="517" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="302" end="302" startBytecode="515" endBytecode="515" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="302" end="302" startBytecode="515" endBytecode="515" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="response"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="filecreate" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="233" end="305" startBytecode="0" endBytecode="223" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <LocalVariable name="responsenew" register="22" pc="321" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="279" end="279" startBytecode="319" endBytecode="319" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="279" end="279" startBytecode="319" endBytecode="319" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="responsenew"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="post" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="159" end="182" startBytecode="0" endBytecode="70" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <LocalVariable name="response" register="11" pc="164" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="181" end="181" startBytecode="162" endBytecode="162" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="181" end="181" startBytecode="162" endBytecode="162" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="response"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="444" end="485" startBytecode="0" endBytecode="648" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="466" end="466" startBytecode="125" endBytecode="125" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="466" end="466" startBytecode="125" endBytecode="125" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="FilesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="309" end="358" startBytecode="0" endBytecode="878" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="331" end="331" startBytecode="145" endBytecode="145" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="331" end="331" startBytecode="145" endBytecode="145" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="encodeContent" signature="(Ljava/io/File;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="363" end="367" startBytecode="0" endBytecode="104" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="366" end="366" startBytecode="15" endBytecode="15" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="366" end="366" startBytecode="15" endBytecode="15" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getAuthentication" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="88" end="118" startBytecode="0" endBytecode="620" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="104" end="104" startBytecode="85" endBytecode="85" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="104" end="104" startBytecode="85" endBytecode="85" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getAuthentication" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="88" end="118" startBytecode="0" endBytecode="620" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="103" end="103" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="103" end="103" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getFileUrl" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="513" end="597" startBytecode="0" endBytecode="1665" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="535" end="535" startBytecode="135" endBytecode="135" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="535" end="535" startBytecode="135" endBytecode="135" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getRepo" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="397" end="439" startBytecode="0" endBytecode="656" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="422" end="422" startBytecode="152" endBytecode="152" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="422" end="422" startBytecode="152" endBytecode="152" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="masterSha" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="187" end="226" startBytecode="0" endBytecode="667" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="208" end="208" startBytecode="133" endBytecode="133" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="208" end="208" startBytecode="133" endBytecode="133" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="host" register="1" pc="69" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="port" register="2" pc="75" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="77" endBytecode="77" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="77" endBytecode="77" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="pwd" register="4" pc="88" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="90" endBytecode="90" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="90" endBytecode="90" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="user" register="3" pc="81" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="83" endBytecode="83" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="83" endBytecode="83" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="444" end="485" startBytecode="0" endBytecode="648" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="FilesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="309" end="358" startBytecode="0" endBytecode="878" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="fileDownload" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lhudson/model/BuildListener;)Z" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="56" end="77" startBytecode="0" endBytecode="300" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="60" end="60" startBytecode="21" endBytecode="21" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="63" end="63" startBytecode="26" endBytecode="26" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="66" end="66" startBytecode="33" endBytecode="33" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="68" end="68" startBytecode="42" endBytecode="42" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="70" end="70" startBytecode="47" endBytecode="47" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="74" end="74" startBytecode="87" endBytecode="87" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="76" end="76" startBytecode="115" endBytecode="115" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="77" end="77" startBytecode="127" endBytecode="127" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="filecreate" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="233" end="305" startBytecode="0" endBytecode="1083" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="241" end="241" startBytecode="31" endBytecode="31" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="244" end="244" startBytecode="36" endBytecode="36" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="247" end="247" startBytecode="43" endBytecode="43" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="248" end="248" startBytecode="52" endBytecode="52" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="250" end="250" startBytecode="61" endBytecode="61" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="255" end="255" startBytecode="65" endBytecode="65" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="286" end="286" startBytecode="332" endBytecode="332" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="288" end="288" startBytecode="341" endBytecode="341" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="289" end="289" startBytecode="348" endBytecode="348" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="293" end="293" startBytecode="403" endBytecode="403" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="295" end="295" startBytecode="428" endBytecode="428" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="297" end="297" startBytecode="435" endBytecode="435" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="298" end="298" startBytecode="444" endBytecode="444" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="299" end="299" startBytecode="483" endBytecode="483" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="300" end="300" startBytecode="497" endBytecode="497" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="302" end="302" startBytecode="505" endBytecode="505" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="303" end="303" startBytecode="517" endBytecode="517" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="305" end="305" startBytecode="525" endBytecode="525" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="387" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="130" end="130" startBytecode="29" endBytecode="29" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="133" end="133" startBytecode="35" endBytecode="35" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="134" end="134" startBytecode="43" endBytecode="43" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="135" end="135" startBytecode="51" endBytecode="51" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="136" end="136" startBytecode="59" endBytecode="59" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="140" end="140" startBytecode="68" endBytecode="68" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="153" end="153" startBytecode="172" endBytecode="172" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="downloadFileFromUrl" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="490" end="508" startBytecode="0" endBytecode="380" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="495" end="495" startBytecode="32" endBytecode="32" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="497" end="497" startBytecode="36" endBytecode="36" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="499" end="499" startBytecode="43" endBytecode="43" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="503" end="503" startBytecode="91" endBytecode="91" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="504" end="504" startBytecode="97" endBytecode="97" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="loadFile" signature="(Ljava/io/File;)[B" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="373" end="391" startBytecode="0" endBytecode="277" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="373" end="373" startBytecode="5" endBytecode="5" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="375" end="375" startBytecode="9" endBytecode="9" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="376" end="376" startBytecode="14" endBytecode="14" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="379" end="379" startBytecode="22" endBytecode="22" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="381" end="381" startBytecode="28" endBytecode="28" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="382" end="382" startBytecode="31" endBytecode="31" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="383" end="383" startBytecode="34" endBytecode="34" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="444" end="485" startBytecode="0" endBytecode="107" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="466" end="466" startBytecode="112" endBytecode="112" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="466" end="466" startBytecode="112" endBytecode="112" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="FilesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="309" end="358" startBytecode="0" endBytecode="153" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="331" end="331" startBytecode="132" endBytecode="132" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="331" end="331" startBytecode="132" endBytecode="132" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="fileDownload" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lhudson/model/BuildListener;)Z" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="56" end="77" startBytecode="0" endBytecode="55" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="60" end="60" startBytecode="15" endBytecode="15" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="60" end="60" startBytecode="15" endBytecode="15" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="filecreate" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="233" end="305" startBytecode="0" endBytecode="223" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="241" end="241" startBytecode="25" endBytecode="25" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="241" end="241" startBytecode="25" endBytecode="25" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getFileUrl" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="513" end="597" startBytecode="0" endBytecode="281" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="535" end="535" startBytecode="122" endBytecode="122" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="535" end="535" startBytecode="122" endBytecode="122" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getRepo" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="397" end="439" startBytecode="0" endBytecode="116" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="422" end="422" startBytecode="139" endBytecode="139" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="422" end="422" startBytecode="139" endBytecode="139" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="masterSha" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="187" end="226" startBytecode="0" endBytecode="116" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="208" end="208" startBytecode="120" endBytecode="120" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="208" end="208" startBytecode="120" endBytecode="120" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="123" end="153" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="130" end="130" startBytecode="24" endBytecode="24" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="130" end="130" startBytecode="24" endBytecode="24" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit" name="getFileUrl" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="513" end="597" startBytecode="0" endBytecode="1665" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdir" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1309" end="1316" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="578" end="578" startBytecode="455" endBytecode="455" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit" start="578" end="578" startBytecode="455" endBytecode="455" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS" priority="2" rank="7" abbrev="UMAC" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit$1">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit$1" name="checkClientTrusted" signature="([Ljavax/security/cert/X509Certificate;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" start="609" end="609" startBytecode="0" endBytecode="62" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="javax.net.ssl.X509TrustManager" role="CLASS_IMPLEMENTED_INTERFACE">
+      <SourceLine classname="javax.net.ssl.X509TrustManager" sourcefile="X509TrustManager.java" sourcepath="javax/net/ssl/X509TrustManager.java"/>
+    </Class>
+    <Method classname="javax.net.ssl.X509TrustManager" name="checkClientTrusted" signature="([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="javax.net.ssl.X509TrustManager" sourcefile="X509TrustManager.java" sourcepath="javax/net/ssl/X509TrustManager.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS" priority="2" rank="7" abbrev="UMAC" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit$1">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit$1" name="checkServerTrusted" signature="([Ljavax/security/cert/X509Certificate;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" start="613" end="613" startBytecode="0" endBytecode="62" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="javax.net.ssl.X509TrustManager" role="CLASS_IMPLEMENTED_INTERFACE">
+      <SourceLine classname="javax.net.ssl.X509TrustManager" sourcefile="X509TrustManager.java" sourcepath="javax/net/ssl/X509TrustManager.java"/>
+    </Class>
+    <Method classname="javax.net.ssl.X509TrustManager" name="checkServerTrusted" signature="([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="javax.net.ssl.X509TrustManager" sourcefile="X509TrustManager.java" sourcepath="javax/net/ssl/X509TrustManager.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS" priority="2" rank="7" abbrev="UMAC" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit$1">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit$1" name="getAcceptedIssuers1" signature="()[Ljavax/security/cert/X509Certificate;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$1" start="604" end="604" startBytecode="0" endBytecode="43" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="javax.net.ssl.X509TrustManager" role="CLASS_IMPLEMENTED_INTERFACE">
+      <SourceLine classname="javax.net.ssl.X509TrustManager" sourcefile="X509TrustManager.java" sourcepath="javax/net/ssl/X509TrustManager.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS" priority="2" rank="7" abbrev="UMAC" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.CommonUtilsGit$2">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$2" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.CommonUtilsGit$2" name="verify1" signature="(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.CommonUtilsGit$2" start="639" end="639" startBytecode="0" endBytecode="63" sourcefile="CommonUtilsGit.java" sourcepath="com/cognizant/DownloadFile/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="javax.net.ssl.HostnameVerifier" role="CLASS_IMPLEMENTED_INTERFACE">
+      <SourceLine classname="javax.net.ssl.HostnameVerifier" sourcefile="HostnameVerifier.java" sourcepath="javax/net/ssl/HostnameVerifier.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.DownloadFiles">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFiles" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFiles" name="authFileLocation" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="70" end="70" startBytecode="37" endBytecode="37" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.DownloadFiles">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFiles" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFiles" name="localFileName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="67" end="67" startBytecode="13" endBytecode="13" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.DownloadFiles">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFiles" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFiles" name="localUrl" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="66" startBytecode="5" endBytecode="5" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.DownloadFiles">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFiles" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFiles" name="remoteFileName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="69" end="69" startBytecode="29" endBytecode="29" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="com.cognizant.DownloadFile.DownloadFiles">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFiles" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFiles" name="repoName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFiles" start="68" end="68" startBytecode="21" endBytecode="21" sourcefile="DownloadFiles.java" sourcepath="com/cognizant/DownloadFile/DownloadFiles.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="2" rank="3" abbrev="SA" category="CORRECTNESS" first="4">
+    <Class classname="com.cognizant.DownloadFile.DownloadFilesBuilder">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="authFileLocation" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="70" end="70" startBytecode="37" endBytecode="37" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="2" rank="3" abbrev="SA" category="CORRECTNESS" first="4">
+    <Class classname="com.cognizant.DownloadFile.DownloadFilesBuilder">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="localFileName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="67" end="67" startBytecode="13" endBytecode="13" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="2" rank="3" abbrev="SA" category="CORRECTNESS" first="4">
+    <Class classname="com.cognizant.DownloadFile.DownloadFilesBuilder">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="localUrl" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="66" startBytecode="5" endBytecode="5" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="2" rank="3" abbrev="SA" category="CORRECTNESS" first="4">
+    <Class classname="com.cognizant.DownloadFile.DownloadFilesBuilder">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="remoteFileName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="69" end="69" startBytecode="29" endBytecode="29" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="2" rank="3" abbrev="SA" category="CORRECTNESS" first="4">
+    <Class classname="com.cognizant.DownloadFile.DownloadFilesBuilder">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Class>
+    <Method classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="66" end="88" startBytecode="0" endBytecode="400" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Method>
+    <Field classname="com.cognizant.DownloadFile.DownloadFilesBuilder" name="repoName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+    </Field>
+    <SourceLine classname="com.cognizant.DownloadFile.DownloadFilesBuilder" start="68" end="68" startBytecode="21" endBytecode="21" sourcefile="DownloadFilesBuilder.java" sourcepath="com/cognizant/DownloadFile/DownloadFilesBuilder.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 6 Oct 2016 12:44:57 +0530" total_classes="2" referenced_classes="115" total_bugs="45" total_size="67" num_packages="1" java_version="1.8.0_102" vm_version="25.102-b14" cpu_seconds="6.38" clock_seconds="17.12" peak_mbytes="498.91" alloc_mbytes="494.94" gc_seconds="0.28" priority_2="32" priority_1="13">
+    <PackageStats package="com.cognizant.DownloadFile" total_bugs="45" total_types="6" total_size="67" priority_2="32" priority_1="13">
+      <ClassStats class="com.cognizant.DownloadFile.DownloadFilesBuilder" sourceFile="DownloadFilesBuilder.java" interface="false" size="47" bugs="5" priority_2="5"/>
+      <ClassStats class="com.cognizant.DownloadFile.DownloadFilesBuilder$DescriptorImpl" sourceFile="DownloadFilesBuilder.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="7203" invocations="1467" avgMicrosecondsPerInvocation="4910" maxMicrosecondsPerInvocation="167285" standardDeviationMircosecondsPerInvocation="11437"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="6346" invocations="211" avgMicrosecondsPerInvocation="30076" maxMicrosecondsPerInvocation="372627" standardDeviationMircosecondsPerInvocation="39585"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1475735140943" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1475735140943" release="" codeSize="403" numClasses="5"/>
+    <AppVersion sequence="2" timestamp="1475735168915" release="" codeSize="67" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1475735264386" release="" codeSize="403" numClasses="5"/>
+  </History>
+</BugCollection>

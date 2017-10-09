@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.mkyong.Tarck_List.java&apos; to &apos;Track_List.java&apos;&#x0D;&#x0A;- Original project: &apos;JerseyClient_RESTfulExample&apos;&#x0D;&#x0A;- Original element: &apos;com.mkyong.Tarck_List.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mkyong.Track_List.java&apos;" description="Rename compilation unit &apos;Tarck_List.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.mkyong{Tarck_List.java" name="Track_List.java" references="false" stamp="1487841745922" version="1.0"/>
+</session>

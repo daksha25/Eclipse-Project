@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.selfserviceplugin.SelfServiceConfig plugin="selfserviceplugin@1.0-SNAPSHOT">
+  <jobmapping>First|test
+second|test</jobmapping>
+  <heading>new</heading>
+</org.jenkinsci.plugins.selfserviceplugin.SelfServiceConfig>

@@ -1,0 +1,5 @@
+com\cognizant\MongoDb_Back\MongoDb_Backup.class
+com\cognizant\MongoDb_Back\MongoDb_Backup$DescriptorImpl.class
+com\cognizant\MongoDb_Back\MongoDb_Backup\DescriptorImpl\doCheckName.stapler
+com\cognizant\MongoDb_Back\MongoDb_Backup.stapler
+META-INF\annotations\hudson.Extension

@@ -1,0 +1,48 @@
+<project name="Sample1" default="jar">
+
+	
+	<property name="src.dir" location="src"/>
+	<property name="Test" location="TestCase"/>
+	<property name="build.dir" location="build" />
+	<property name="build.dir.classes" location="build/classes" />
+	<property name="test.report.dir" location="test/report/"/>
+	 
+	
+	<target name="clean">
+		<delete dir="build"/>
+
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="${src.dir}" destdir="${build.dir.classes}" includeantruntime="false"/>
+		<javac srcdir="${Test}" destdir="${build.dir.classes}" includeantruntime="false" classpath="D:\eclipse\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar"/>
+	</target>
+
+	<target name="jar" depends="junit">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/FirstAntDemo.jar" basedir="build/classes">
+
+		</jar>
+	</target>
+
+	 <path id="junit.class.path">
+	 	
+	    <pathelement location="D:\eclipse\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" />
+	   <pathelement location="${build.dir}" />
+	  </path>
+	
+	 <target name="junit" depends="compile" >
+	 <echo>this is junit part</echo>
+	    <junit printsummary="on" fork="true" haltonfailure="yes">
+	      <classpath refid="junit.class.path" />
+	      <formatter type="xml" />
+	      <batchtest todir="${test.report.dir}">
+	        <fileset dir="${Test}">
+	          <include name="TestCase/TestClass.java" />
+	        </fileset>
+	      </batchtest>
+	    </junit>
+	  </target>
+	
+</project>

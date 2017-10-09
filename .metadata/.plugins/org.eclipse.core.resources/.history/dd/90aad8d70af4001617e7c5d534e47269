@@ -1,0 +1,65 @@
+
+package com.test1;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.antlr.runtime.tree.TreeWizard.Visitor;
+import org.antlr.v4.runtime.ANTLRFileStream;
+import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.tree.ParseTree;
+
+import com.test.javaParser;
+import com.test.javaParser.InterfaceMethodDeclarationContext;
+import com.cognizant.Test;
+import com.test.Java8Lexer;
+
+import com.test.javaParser.MethodNameContext;
+
+public class sample extends Visitor{
+
+
+		    /**
+		     * Main Method
+		     * 
+		     * @param args
+		     * @throws IOException
+		     */
+		    public static void main(String[] args) throws IOException {
+		        ANTLRInputStream input = new ANTLRInputStream(new FileInputStream("/home/leoks/EclipseIndigo/workspace2/SO/src/mypackage/MyVisitor.java")); // we'll
+		                                                                                                                                                    // parse
+		                                                                                                                                                    // this
+		                                                                                                                                                    // file
+		        Java8Lexer lexer = new Java8Lexer(input);
+		        CommonTokenStream tokens = new CommonTokenStream(lexer);
+		        javaParser parser = new javaParser(tokens);
+		        ParseTree tree=parser.compilationUnit();
+		     
+
+
+
+		        sample visitor = new sample(); // extends JavaBaseVisitor<Void>
+		                                                // and overrides the methods
+		                                                // you're interested
+		      
+		    }
+
+		    /**
+		     * some attribute comment
+		     */
+		    private String  someAttribute;
+
+		    public Void visitMyMethodName(MethodNameContext ctx) {
+		        System.out.println("Method name:" + ctx.getText());
+		        return visitMyMethodName(ctx);
+		    }
+
+			@Override
+			public void visit(Object arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+
+		}

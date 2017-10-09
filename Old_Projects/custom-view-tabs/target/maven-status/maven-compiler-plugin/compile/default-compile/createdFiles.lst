@@ -1,0 +1,5 @@
+org/jenkinsci/plugins/customviewtabs/HelloWorldBuilder.stapler
+org/jenkinsci/plugins/customviewtabs/HelloWorldBuilder/DescriptorImpl/doCheckImageName.stapler
+org/jenkinsci/plugins/customviewtabs/HelloWorldBuilder/DescriptorImpl/doCheckClairServer.stapler
+org/jenkinsci/plugins/customviewtabs/HelloWorldBuilder/DescriptorImpl/doCheckAnalyzerPath.stapler
+META-INF/annotations/hudson.Extension

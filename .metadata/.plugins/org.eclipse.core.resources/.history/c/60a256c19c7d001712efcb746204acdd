@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<project default="compress" name="Test_Pakaging">
+
+
+<target name="init">
+
+<mkdir dir="build/classes"/>
+
+<mkdir dir="dist"/>
+
+</target>
+
+
+<target name="compile" depends="init">
+
+<javac destdir="build/classes" srcdir="src/org/test"/>
+
+</target>
+
+
+<target name="compress" depends="compile">
+
+<jar basedir="build/classes" destfile="dist/HelloWorld.jar"/>
+
+</target>
+
+
+<target name="execute" depends="compile">
+
+<java classpath="build/classes" classname="org.test.HelloWorld.HelloWorld"/>
+
+</target>
+
+
+<target name="clean">
+
+<delete dir="build"/>
+
+<delete dir="dist"/>
+
+</target>
+
+</project>

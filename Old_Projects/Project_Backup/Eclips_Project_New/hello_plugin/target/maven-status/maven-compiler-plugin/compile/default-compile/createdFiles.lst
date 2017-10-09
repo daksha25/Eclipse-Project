@@ -1,0 +1,4 @@
+com\jenkins\hello_plugin\HelloWorldBuilder.class
+com\jenkins\hello_plugin\HelloWorldBuilder$DescriptorImpl.class
+com\jenkins\hello_plugin\HelloWorldBuilder.stapler
+META-INF\annotations\hudson.Extension

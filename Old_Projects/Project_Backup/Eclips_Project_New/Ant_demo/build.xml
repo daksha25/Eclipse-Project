@@ -1,0 +1,8 @@
+<project name="first" default="target1">
+	<target name="target1" >
+	<filter token="year" value="2016"/>
+		<copy todir="${dest.dir}" filtering="true">
+	<fileset dir="src"></fileset>	
+	</copy>
+	</target>
+</project>

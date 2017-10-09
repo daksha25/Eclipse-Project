@@ -1,0 +1,27 @@
+package com.cognizant;
+
+import java.io.FileInputStream;
+
+import com.cognizant.Test.MethodVisitor;
+
+import japa.parser.JavaParser;
+import japa.parser.ast.CompilationUnit;
+import japa.parser.ast.body.MethodDeclaration;
+import japa.parser.ast.visitor.VoidVisitorAdapter;
+
+public class Java_Parser {
+
+		 public static void main(String[] args){
+			 String main="myname is daksha my";
+			 String sub="my";
+			 int strlen=main.length();
+			 int strlen1=sub.length();
+			 for(int i=0;i<(strlen-strlen1);i++)
+			 {
+				 if()
+		            }
+		    
+		}
+	}
+
+

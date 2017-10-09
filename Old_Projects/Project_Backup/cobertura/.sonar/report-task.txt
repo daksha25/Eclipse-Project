@@ -1,0 +1,5 @@
+projectKey=org.sonarqube:Carbeturacodecoverage
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:Carbeturacodecoverage
+ceTaskId=AVYNp-l5s9WYe63onJXe
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVYNp-l5s9WYe63onJXe

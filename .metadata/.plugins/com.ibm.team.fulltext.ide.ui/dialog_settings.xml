@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ArtifactHistorySearchDialog">
+		<item value="450" key="com.ibm.team.fulltext.ide.ui.internal.history.ArtifactHistorySearchDialogDIALOG_HEIGHT"/>
+		<item value="false" key="com.ibm.team.fulltext.ide.ui.internal.history.ArtifactHistorySearchDialogDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="com.ibm.team.fulltext.ide.ui.internal.history.ArtifactHistorySearchDialogDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="600" key="com.ibm.team.fulltext.ide.ui.internal.history.ArtifactHistorySearchDialogDIALOG_WIDTH"/>
+	</section>
+</section>

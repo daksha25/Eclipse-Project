@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: Test1_Plugin
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-06/22/2016 15:53-514740)
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: 
+Libraries: D:\eclipse\eclips projects\jenkins_plugin\Test1_Plugin\targ
+ et\classes
+Resource-Path: D:\eclipse\eclips projects\jenkins_plugin\Test1_Plugin\
+ src\main\webapp
+

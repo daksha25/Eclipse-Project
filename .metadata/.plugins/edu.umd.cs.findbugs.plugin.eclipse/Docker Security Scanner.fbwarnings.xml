@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="33" timestamp="1504073949717" analysisTimestamp="1504073940423" release="">
+  <Project projectName="Docker Security Scanner">
+    <Jar>D:\Documents\Plugin_and _Utility\Jenkins_Plugin\Repo\Docker Security Scanner\target\classes\org\jenkinsci\plugins\clairdockerscannerbuildstep\Values_File.class</Jar>
+    <AuxClasspathEntry>D:\Documents\Plugin_and _Utility\Jenkins_Plugin\Repo\Docker Security Scanner\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\annotations\3.0.0\annotations-3.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-core\1.625.3\jenkins-core-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\plugins\icon-shim\icon-set\1.0.5\icon-set-1.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\remoting\2.53.2\remoting-2.53.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\constant-pool-scanner\1.2\constant-pool-scanner-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\cli\1.625.3\cli-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\version-number\1.1\version-number-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\crypto-util\1.1\crypto-util-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\jtidy\4aug2000r7-dev-hudson-1\jtidy-4aug2000r7-dev-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\inject\guice\4.0-beta\guice-4.0-beta.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jruby\ext\posix\jna-posix\1.0.3-jenkins-1\jna-posix-1.0.3-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-posix\3.0.1\jnr-posix-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-ffi\1.0.7\jnr-ffi-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7-native.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-commons\4.0\asm-commons-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-analysis\4.0\asm-analysis-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-tree\4.0\asm-tree-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-util\4.0\asm-util-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-constants\0.8.5\jnr-constants-0.8.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\trilead-putty-extension\1.2\trilead-putty-extension-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\trilead-ssh2\build217-jenkins-8\trilead-ssh2-build217-jenkins-8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-groovy\1.237\stapler-groovy-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jelly\1.237\stapler-jelly-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20120928\commons-jelly-1.1-jenkins-20120928.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\dom4j\dom4j\1.6.1-jenkins-4\dom4j-1.6.1-jenkins-4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jrebel\1.237\stapler-jrebel-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler\1.237\stapler-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-discovery\commons-discovery\0.4\commons-discovery-0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\tiger-types\1.3\tiger-types-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\windows-package-checker\1.0\windows-package-checker-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-zeroclipboard\1.3.5-1\stapler-adjunct-zeroclipboard-1.3.5-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.4\stapler-adjunct-timeline-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\infradna\tool\bridge-method-annotation\1.13\bridge-method-annotation-1.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-2\json-lib-2.4-jenkins-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\args4j\args4j\2.0.31\args4j-2.0.31.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\annotation-indexer\1.7\annotation-indexer-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\bytecode-compatibility-transformer\1.5\bytecode-compatibility-transformer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\asm5\5.0.1\asm5-5.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\task-reactor\1.4\task-reactor-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\localizer\localizer\1.23\localizer-1.23.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\xstream\1.4.7-jenkins-1\xstream-1.4.7-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant\1.8.4\ant-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant-launcher\1.8.4\ant-launcher-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-compress\1.10\commons-compress-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\mail\mail\1.4.4\mail-1.4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\activation\1.1.1-hudson-1\activation-1.1.1-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jaxen\jaxen\1.1-beta-11\jaxen-1.1-beta-11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\acegisecurity\acegi-security\1.0.7\acegi-security-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-jdbc\1.2.9\spring-jdbc-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-dao\1.2.9\spring-dao-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy-all\1.8.9\groovy-all-1.8.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\fusesource\jansi\jansi\1.9\jansi-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-webmvc\2.5.6.SEC03\spring-webmvc-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-beans\2.5.6.SEC03\spring-beans-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context\2.5.6.SEC03\spring-context-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context-support\2.5.6.SEC03\spring-context-support-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-web\2.5.6.SEC03\spring-web-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-core\2.5.6.SEC03\spring-core-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-aop\2.5.6.SEC03\spring-aop-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\jstl\1.1.0\jstl-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\winp\winp\1.22\winp-1.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\memory-monitor\1.9\memory-monitor-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.9\wstx-asl-3.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\jmdns\3.4.0-jenkins-3\jmdns-3.4.0-jenkins-3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\akuma\1.10\akuma-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\libpam4j\1.8\libpam4j-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\libzfs\libzfs\0.5\libzfs-0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\sezpoz\sezpoz\1.9\sezpoz-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.6-kohsuke-1\j-interop-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.6-kohsuke-1\j-interopdeps-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\samba\jcifs\jcifs\1.2.19\jcifs-1.2.19.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\access-modifier-annotation\1.4\access-modifier-annotation-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-fileupload\commons-fileupload\1.3.1-jenkins-1\commons-fileupload-1.3.1-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mindrot\jbcrypt\0.3m\jbcrypt-0.3m.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-war\1.625.3\jenkins-war-1.625.3-war-for-test.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\instance-identity\1.4\instance-identity-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.47\bcpkix-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.47\bcprov-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\ssh-cli-auth\1.2\ssh-cli-auth-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\slave-installer\1.5\slave-installer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\windows-slave-installer\1.4\windows-slave-installer-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\launchd-slave-installer\1.2\launchd-slave-installer-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\upstart-slave-installer\1.1\upstart-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\systemd-slave-installer\1.1\systemd-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\sshd\1.6\sshd-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\sshd\sshd-core\0.8.0\sshd-core-0.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\mina\mina-core\2.0.5\mina-core-2.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2.1\jenkins-test-harness-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpmime\4.5\httpmime-4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\embedded-rhino-debugger\1.2\embedded-rhino-debugger-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE72\org-netbeans-insane-RELEASE72.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\lib\lib-jenkins-maven-embedder\3.11\lib-jenkins-maven-embedder-3.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model\3.1.0\maven-model-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-compat\3.1.0\maven-compat-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-embedder\3.1.0\maven-embedder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-cipher\1.7\plexus-cipher-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-connector-wagon\0.9.0.M2\aether-connector-wagon-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.1.0\org.eclipse.sisu.plexus-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.1.0\org.eclipse.sisu.inject-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4\plexus-classworlds-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-utils\2.1\plexus-utils-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\test-annotations\1.2\test-annotations-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\junit\junit\4.12\junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.7\jcl-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-jdk14\1.7.7\slf4j-jdk14-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>D:\Documents\Plugin_and _Utility\Jenkins_Plugin\Repo\Docker Security Scanner\src\main\resources</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and _Utility\Jenkins_Plugin\Repo\Docker Security Scanner\target\generated-sources\localizer</SrcDir>
+    <SrcDir>\Docker Security Scanner\target\generated-test-sources\injected</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and _Utility\Jenkins_Plugin\Repo\Docker Security Scanner\src\main\java</SrcDir>
+    <SrcDir>\Docker Security Scanner\src\test\java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DMI_INVOKING_TOSTRING_ON_ARRAY" priority="2" rank="10" abbrev="USELESS_STRING" category="CORRECTNESS" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="text_to_html" signature="(Ljava/io/File;Lhudson/FilePath;Ljava/io/PrintStream;Ljava/lang/String;Lhudson/FilePath;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;ILjava/io/File;)Lhudson/FilePath;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="66" end="916" startBytecode="0" endBytecode="16165" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Method>
+    <LocalVariable name="array" register="91" pc="5426" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="769" end="769" startBytecode="5426" endBytecode="5426" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="769" end="769" startBytecode="5426" endBytecode="5426" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="text_to_html" signature="(Ljava/io/File;Lhudson/FilePath;Ljava/io/PrintStream;Ljava/lang/String;Lhudson/FilePath;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;ILjava/io/File;)Lhudson/FilePath;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="66" end="916" startBytecode="0" endBytecode="16165" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="69" end="69" startBytecode="69" endBytecode="69" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="69" end="69" startBytecode="69" endBytecode="69" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="text_to_html" signature="(Ljava/io/File;Lhudson/FilePath;Ljava/io/PrintStream;Ljava/lang/String;Lhudson/FilePath;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;ILjava/io/File;)Lhudson/FilePath;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="66" end="916" startBytecode="0" endBytecode="16165" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="98" end="98" startBytecode="269" endBytecode="269" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="98" end="98" startBytecode="269" endBytecode="269" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="text_to_html" signature="(Ljava/io/File;Lhudson/FilePath;Ljava/io/PrintStream;Ljava/lang/String;Lhudson/FilePath;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;ILjava/io/File;)Lhudson/FilePath;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="66" end="916" startBytecode="0" endBytecode="16165" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="611" end="612" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="67" end="67" startBytecode="28" endBytecode="28" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="67" end="67" startBytecode="28" endBytecode="28" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Field classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="perHigh" signature="I" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="56" end="56" startBytecode="0" endBytecode="0" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Field classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="perLow" signature="I" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="58" end="58" startBytecode="0" endBytecode="0" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Field classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="perMed" signature="I" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="57" end="57" startBytecode="0" endBytecode="0" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Field classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="perNeg" signature="I" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="59" end="59" startBytecode="0" endBytecode="0" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Class>
+    <Field classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" name="total" signature="I" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter" start="55" end="55" startBytecode="0" endBytecode="0" sourcefile="Text_HTMLConverter.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Text_HTMLConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="layervalues" signature="(Ljava/util/List;Ljava/util/List;Ljava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="92" end="155" startBytecode="0" endBytecode="200" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <LocalVariable name="outFile" register="13" pc="116" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="100" end="100" startBytecode="114" endBytecode="114" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="100" end="100" startBytecode="114" endBytecode="114" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="outFile"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="23">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="layervalues" signature="(Ljava/util/List;Ljava/util/List;Ljava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="92" end="155" startBytecode="0" endBytecode="200" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <LocalVariable name="sb1" register="18" pc="192" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="108" end="108" startBytecode="190" endBytecode="190" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="108" end="108" startBytecode="190" endBytecode="190" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sb1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="valuesFile" signature="(IIIILjava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="21" end="83" startBytecode="0" endBytecode="212" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <LocalVariable name="outFile" register="16" pc="129" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="31" end="31" startBytecode="127" endBytecode="127" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="31" end="31" startBytecode="127" endBytecode="127" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="outFile"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="layervalues" signature="(Ljava/util/List;Ljava/util/List;Ljava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="92" end="155" startBytecode="0" endBytecode="1311" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="107" end="108" startBytecode="0" endBytecode="41" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="109" end="109" startBytecode="202" endBytecode="202" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="109" end="109" startBytecode="202" endBytecode="202" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="valuesFile" signature="(IIIILjava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="21" end="83" startBytecode="0" endBytecode="1297" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="107" end="108" startBytecode="0" endBytecode="41" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="50" end="50" startBytecode="288" endBytecode="288" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="50" end="50" startBytecode="288" endBytecode="288" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="layervalues" signature="(Ljava/util/List;Ljava/util/List;Ljava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="92" end="155" startBytecode="0" endBytecode="1311" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1007" end="1012" startBytecode="0" endBytecode="98" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="115" end="115" startBytecode="231" endBytecode="231" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="115" end="115" startBytecode="231" endBytecode="231" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="13">
+    <Class classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Class>
+    <Method classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" name="valuesFile" signature="(IIIILjava/lang/String;Lhudson/model/AbstractBuild;Ljava/lang/String;Lhudson/model/BuildListener;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="21" end="83" startBytecode="0" endBytecode="1297" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1007" end="1012" startBytecode="0" endBytecode="98" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="46" end="46" startBytecode="274" endBytecode="274" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+    <SourceLine classname="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" start="46" end="46" startBytecode="274" endBytecode="274" sourcefile="Values_File.java" sourcepath="org/jenkinsci/plugins/clairdockerscannerbuildstep/Values_File.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 30 Aug 2017 11:48:59 +0530" total_classes="1" referenced_classes="23" total_bugs="16" total_size="80" num_packages="1" java_version="1.8.0_141" vm_version="25.141-b15" cpu_seconds="6.38" clock_seconds="9.62" peak_mbytes="362.53" alloc_mbytes="494.94" gc_seconds="0.21" priority_2="8" priority_1="8">
+    <PackageStats package="org.jenkinsci.plugins.clairdockerscannerbuildstep" total_bugs="16" total_types="2" total_size="80" priority_2="8" priority_1="8">
+      <ClassStats class="org.jenkinsci.plugins.clairdockerscannerbuildstep.Values_File" sourceFile="Values_File.java" interface="false" size="80" bugs="7" priority_2="2" priority_1="5"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="2644" invocations="2" avgMicrosecondsPerInvocation="1322392" maxMicrosecondsPerInvocation="2167271" standardDeviationMircosecondsPerInvocation="844879"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1649" invocations="625" avgMicrosecondsPerInvocation="2638" maxMicrosecondsPerInvocation="41135" standardDeviationMircosecondsPerInvocation="5254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="476" invocations="625" avgMicrosecondsPerInvocation="761" maxMicrosecondsPerInvocation="50571" standardDeviationMircosecondsPerInvocation="3498"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="144" invocations="23" avgMicrosecondsPerInvocation="6274" maxMicrosecondsPerInvocation="69807" standardDeviationMircosecondsPerInvocation="14619"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="141" invocations="1" avgMicrosecondsPerInvocation="141381" maxMicrosecondsPerInvocation="141381" standardDeviationMircosecondsPerInvocation="0"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1503985848986" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1503985848987" release="" codeSize="630" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1503986032410" release="" codeSize="630" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1503986147075" release="" codeSize="630" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1503986648845" release="" codeSize="630" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1503988021061" release="" codeSize="628" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1503988575168" release="" codeSize="606" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1503989564206" release="" codeSize="606" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1503989780487" release="" codeSize="607" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1503990316567" release="" codeSize="611" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1503990327315" release="" codeSize="611" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1503990700739" release="" codeSize="628" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1503990848118" release="" codeSize="631" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1503991893489" release="" codeSize="712" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1503992010990" release="" codeSize="632" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1503992267254" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1503992290676" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1503992324999" release="" codeSize="631" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1503992328252" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1503994690456" release="" codeSize="633" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1503994768874" release="" codeSize="634" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1503994945278" release="" codeSize="634" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1503995523410" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1503995765498" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1503995777502" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1503995786363" release="" codeSize="635" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1503996292909" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1503996936900" release="" codeSize="634" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1503997474764" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1503997880986" release="" codeSize="635" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1503998037831" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1503998772166" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1503999012768" release="" codeSize="80" numClasses="1"/>
+  </History>
+</BugCollection>

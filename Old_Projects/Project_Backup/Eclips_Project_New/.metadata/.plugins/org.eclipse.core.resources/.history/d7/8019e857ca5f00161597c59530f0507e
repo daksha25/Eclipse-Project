@@ -1,0 +1,67 @@
+
+
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;  
+
+public class Test
+{  
+	public static boolean Backupdata()
+
+//public static boolean Restoredata(String mysqldumpPath, String backuppath,String username,String password,String dbname)
+{
+	
+    boolean status = false;
+    String path="C:\\Program Files\\MongoDB 2.6 Standard\\bin";
+      String command=path+"\\mongodump.exe";//--out "//+"D:\\Documents\\Backup\\Mongodb_backup";
+   //String command =mysqldumpPath+"\\mysql"+" -user="+username+" -password="+password + " dbname "+"-e"+"source "+backuppath;
+    try {
+        Process runtimeProcess = Runtime.getRuntime().exec(command);
+      int processComplete = runtimeProcess.waitFor();
+        System.out.println(processComplete);
+        if (processComplete == 0) {
+            System.out.println("backup: Backup Successfull");
+            status = true;
+       } else 
+        {
+            System.out.println("backup: Backup Failure!");
+        }
+    
+ 
+    
+    } catch (IOException ioe) {
+        System.out.println("Exception IO");
+        ioe.printStackTrace();
+    } catch (Exception e) {
+        System.out.println("Exception");
+        e.printStackTrace();
+    }
+    return status;
+}
+
+public static void main(String args[]){
+	//String username = args[0];
+ //  String password = args[1];
+	   // DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+	   // Date date = new Date();
+	 //  String date1=dateFormat.format(date);
+	 // String dbname=args[2];
+	   //String backup_path=args[3];
+		//   String backupName = backup_path+"\\"+dbname+"_"+date1+".sql";
+//		  String username="root";
+//		  String password="daksha25*";
+//		  String Path_mysqldump="D:\\MySQL Server 5.6\\bin";
+//		  String backup_path="D:\\Documents\\Backup\\sonar_20160810.sql";
+//		  String dbname="test";
+		   Test t = new Test();
+		 // String Path_mysqldump=args[4];
+		  
+		 // t.Restoredata(Path_mysqldump, backup_path,username,password,dbname);
+		t.Backupdata();
+	   
+	  
+
+}
+
+}

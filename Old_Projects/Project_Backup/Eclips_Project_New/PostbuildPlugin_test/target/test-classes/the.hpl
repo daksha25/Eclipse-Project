@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Group-Id: com.plugin
+Short-Name: postbuild_test
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-09/27/2016 16:06-514740)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: D:\eclipse\eclips projects\PostbuildPlugin_test\src\main\re
+ sources,D:\eclipse\eclips projects\PostbuildPlugin_test\target\classes
+Resource-Path: D:\eclipse\eclips projects\PostbuildPlugin_test\src\mai
+ n\webapp
+

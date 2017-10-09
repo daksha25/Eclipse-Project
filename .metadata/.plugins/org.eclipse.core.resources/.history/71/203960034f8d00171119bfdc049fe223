@@ -1,0 +1,41 @@
+package com.cognizant;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.Properties;
+public class GetData {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File file=new File("D:\\Layer_data.properties");
+		FileInputStream fis = new FileInputStream(file);
+		Properties props = new Properties();
+		props.load(fis);
+		Set<Object> keys = props.keySet();
+		// System.out.println("keys are "+keys);
+		List<Object> listKeys = new ArrayList<Object>();
+		listKeys.addAll(keys); //build numbers
+		System.out.println("lisetkeys is "+listKeys);
+		List<Object> listKeys1 = new ArrayList<Object>();
+		for (Object object : listKeys) {
+			String obj = object.toString();
+			//Integer intobj = Integer.parseInt(obj);
+			listKeys1.add(obj);
+		}
+		for (int z = 0; z < keys.size(); z++) {
+			//String datavalue = props.getProperty(listKeys.get(z).toString()).trim();
+			
+		//	System.out.println(datavalue);
+			
+		//System.out.println("lisetkeys 1 is "+listKeys1);
+			String datavalue=props.getProperty(listKeys.get(z).toString().replace("[", ""));
+			
+	}
+
+}
+}

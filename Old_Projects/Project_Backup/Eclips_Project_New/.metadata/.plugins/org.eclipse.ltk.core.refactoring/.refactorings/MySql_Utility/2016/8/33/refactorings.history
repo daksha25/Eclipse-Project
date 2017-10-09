@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MySql_Utility/BackUp_All&apos; to &apos;BackUp_Alldb&apos;" description="Rename resource &apos;BackUp_All&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="BackUp_All" name="BackUp_Alldb" stamp="1470904784150" updateReferences="true"/>
+</session>

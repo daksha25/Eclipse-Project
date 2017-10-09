@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry kind="lib" path="D:/jar files/Extracted Files/apache-httpcomponents-httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/jar files/Extracted Files/apache-httpcomponents-httpcore.jar"/>
+	<classpathentry kind="lib" path="D:/jar files/Extracted Files/http-builder-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/jar files/Extracted Files/org.osgi.foundation-1.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

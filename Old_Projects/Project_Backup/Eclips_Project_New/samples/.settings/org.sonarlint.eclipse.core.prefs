@@ -1,0 +1,5 @@
+autoEnabled=false
+eclipse.preferences.version=1
+extraProperties=
+moduleKey=org.sonarqube\:sample1
+serverId=10

@@ -1,0 +1,39 @@
+package com.cognizant.MongoDb;
+
+import java.io.IOException;
+
+import org.apache.log4j.Logger;
+
+public class MongoDbTaskUtility {
+
+	public static boolean Backupdata(String mysqldumpPath,String backupfile_path)
+	{
+		  boolean status = false;
+		  final org.apache.log4j.Logger logger= Logger.getLogger(MongoDbTaskUtility.class); 
+	      String command=mysqldumpPath+"\\mongodump.exe --out "+backupfile_path;
+	   
+	    try {
+	        Process runtimeProcess = Runtime.getRuntime().exec(command);
+	      int processComplete = runtimeProcess.waitFor();
+	        
+	        if (processComplete == 0) {
+	            logger.info("backup: Backup Successfull");
+	            status = true;
+	       } else 
+	        {
+	    	   logger.info("backup: Backup Failure!");
+	        }
+	    
+	 
+	    
+	    } catch (IOException ioe) {
+	    	logger.info("Exception IO");
+	        ioe.printStackTrace();
+	    } catch (Exception e) {
+	    	logger.info("Exception");
+	        e.printStackTrace();
+	    }
+	    return status;
+	}
+
+}

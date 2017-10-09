@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="2" timestamp="1475737187251" analysisTimestamp="1475737183960" release="">
+  <Project projectName="create-repository-git">
+    <Jar>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\classes\org\jenkins\GitCreateBranchPlugin</Jar>
+    <Jar>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\classes\org\jenkins\GitCreateBranchPlugin\BranchCreateBuilder</Jar>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\log4j\log4j\1.2.15\log4j-1.2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\httpcache4j\resolvers\resolvers-net-urlconnection\1.6\resolvers-net-urlconnection-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\httpcache4j\httpcache4j-api\1.6\httpcache4j-api-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\joda-time\joda-time\1.5.2\joda-time-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpmime\4.3.6\httpmime-4.3.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\mashape\unirest\unirest-java\1.4.7\unirest-java-1.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy-json\2.4.7\groovy-json-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy\2.4.7\groovy-2.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\json\json\20160212\json-20160212.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.0.2\httpasyncclient-4.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.3.2\httpcore-nio-4.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpclient\4.4\httpclient-4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\httpcomponents\httpcore\4.4\httpcore-4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\squareup\okhttp\okhttp\2.7.5\okhttp-2.7.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\annotations\3.0.0\annotations-3.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-core\1.625.3\jenkins-core-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\plugins\icon-shim\icon-set\1.0.5\icon-set-1.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\remoting\2.53.2\remoting-2.53.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\constant-pool-scanner\1.2\constant-pool-scanner-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\cli\1.625.3\cli-1.625.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\version-number\1.1\version-number-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\crypto-util\1.1\crypto-util-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\jtidy\4aug2000r7-dev-hudson-1\jtidy-4aug2000r7-dev-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\inject\guice\4.0-beta\guice-4.0-beta.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jruby\ext\posix\jna-posix\1.0.3-jenkins-1\jna-posix-1.0.3-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-posix\3.0.1\jnr-posix-3.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-ffi\1.0.7\jnr-ffi-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jffi\1.2.7\jffi-1.2.7-native.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-commons\4.0\asm-commons-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-analysis\4.0\asm-analysis-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-tree\4.0\asm-tree-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\ow2\asm\asm-util\4.0\asm-util-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-x86asm\1.0.2\jnr-x86asm-1.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\jnr\jnr-constants\0.8.5\jnr-constants-0.8.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\trilead-putty-extension\1.2\trilead-putty-extension-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\trilead-ssh2\build217-jenkins-8\trilead-ssh2-build217-jenkins-8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-groovy\1.237\stapler-groovy-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jelly\1.237\stapler-jelly-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20120928\commons-jelly-1.1-jenkins-20120928.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\dom4j\dom4j\1.6.1-jenkins-4\dom4j-1.6.1-jenkins-4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-jrebel\1.237\stapler-jrebel-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler\1.237\stapler-1.237.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-discovery\commons-discovery\0.4\commons-discovery-0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\tiger-types\1.3\tiger-types-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\windows-package-checker\1.0\windows-package-checker-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-zeroclipboard\1.3.5-1\stapler-adjunct-zeroclipboard-1.3.5-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.4\stapler-adjunct-timeline-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\infradna\tool\bridge-method-annotation\1.13\bridge-method-annotation-1.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-2\json-lib-2.4-jenkins-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\args4j\args4j\2.0.31\args4j-2.0.31.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\annotation-indexer\1.7\annotation-indexer-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\bytecode-compatibility-transformer\1.5\bytecode-compatibility-transformer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\asm5\5.0.1\asm5-5.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\task-reactor\1.4\task-reactor-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\localizer\localizer\1.23\localizer-1.23.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\xstream\1.4.7-jenkins-1\xstream-1.4.7-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant\1.8.4\ant-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\ant\ant-launcher\1.8.4\ant-launcher-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-compress\1.10\commons-compress-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\activation\1.1.1-hudson-1\activation-1.1.1-hudson-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jaxen\jaxen\1.1-beta-11\jaxen-1.1-beta-11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\acegisecurity\acegi-security\1.0.7\acegi-security-1.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-jdbc\1.2.9\spring-jdbc-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-dao\1.2.9\spring-dao-1.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\groovy\groovy-all\1.8.9\groovy-all-1.8.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\fusesource\jansi\jansi\1.9\jansi-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-webmvc\2.5.6.SEC03\spring-webmvc-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-beans\2.5.6.SEC03\spring-beans-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context\2.5.6.SEC03\spring-context-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-context-support\2.5.6.SEC03\spring-context-support-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-web\2.5.6.SEC03\spring-web-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-core\2.5.6.SEC03\spring-core-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\springframework\spring-aop\2.5.6.SEC03\spring-aop-2.5.6.SEC03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\servlet\jstl\1.1.0\jstl-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\winp\winp\1.22\winp-1.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\memory-monitor\1.9\memory-monitor-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.9\wstx-asl-3.2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\jmdns\3.4.0-jenkins-3\jmdns-3.4.0-jenkins-3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\akuma\1.10\akuma-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\libpam4j\1.8\libpam4j-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\libzfs\libzfs\0.5\libzfs-0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\java\sezpoz\sezpoz\1.9\sezpoz-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.6-kohsuke-1\j-interop-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.6-kohsuke-1\j-interopdeps-2.0.6-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\samba\jcifs\jcifs\1.2.19\jcifs-1.2.19.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\kohsuke\access-modifier-annotation\1.4\access-modifier-annotation-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-fileupload\commons-fileupload\1.3.1-jenkins-1\commons-fileupload-1.3.1-jenkins-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\mindrot\jbcrypt\0.3m\jbcrypt-0.3m.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-war\1.625.3\jenkins-war-1.625.3-war-for-test.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\instance-identity\1.4\instance-identity-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.47\bcpkix-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.47\bcprov-jdk15on-1.47.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\ssh-cli-auth\1.2\ssh-cli-auth-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\slave-installer\1.5\slave-installer-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\windows-slave-installer\1.4\windows-slave-installer-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\launchd-slave-installer\1.2\launchd-slave-installer-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\upstart-slave-installer\1.1\upstart-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\systemd-slave-installer\1.1\systemd-slave-installer-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\modules\sshd\1.6\sshd-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\sshd\sshd-core\0.8.0\sshd-core-0.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\mina\mina-core\2.0.5\mina-core-2.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2.13\jenkins-test-harness-2.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-webapp\9.2.15.v20160210\jetty-webapp-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-xml\9.2.15.v20160210\jetty-xml-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-servlet\9.2.15.v20160210\jetty-servlet-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-security\9.2.15.v20160210\jetty-security-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-server\9.2.15.v20160210\jetty-server-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-http\9.2.15.v20160210\jetty-http-9.2.15.v20160210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\main\jenkins-test-harness-htmlunit\2.18-1\jenkins-test-harness-htmlunit-2.18-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jvnet\hudson\embedded-rhino-debugger\1.2\embedded-rhino-debugger-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE72\org-netbeans-insane-RELEASE72.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\lib\lib-jenkins-maven-embedder\3.11\lib-jenkins-maven-embedder-3.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model\3.1.0\maven-model-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-compat\3.1.0\maven-compat-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-embedder\3.1.0\maven-embedder-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\sonatype\plexus\plexus-cipher\1.7\plexus-cipher-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-connector-wagon\0.9.0.M2\aether-connector-wagon-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.1.0\org.eclipse.sisu.plexus-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.1.0\org.eclipse.sisu.inject-0.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4\plexus-classworlds-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\codehaus\plexus\plexus-utils\2.1\plexus-utils-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\jenkins-ci\test-annotations\1.2\test-annotations-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.7\log4j-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.7\jcl-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\.m2\repository\org\slf4j\slf4j-jdk14\1.7.7\slf4j-jdk14-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\generated-sources\localizer</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\target\generated-test-sources\injected</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\src\test\java</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\src\main\java</SrcDir>
+    <SrcDir>D:\Documents\Plugin_and Utility\Jenkins_Plugin\Git\GitCreateBranchPlugin\src\main\resources</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.BranchCreate">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="68" end="93" startBytecode="0" endBytecode="415" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Method>
+    <Field classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="authFileLocation" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Field>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="70" end="70" startBytecode="21" endBytecode="21" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.BranchCreate">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="68" end="93" startBytecode="0" endBytecode="415" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Method>
+    <Field classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="branchName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Field>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="69" end="69" startBytecode="13" endBytecode="13" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+  </BugInstance>
+  <BugInstance type="SA_FIELD_SELF_ASSIGNMENT" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.BranchCreate">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="perform" signature="(Lhudson/model/AbstractBuild;Lhudson/Launcher;Lhudson/model/BuildListener;)Z" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="68" end="93" startBytecode="0" endBytecode="415" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Method>
+    <Field classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="repoPath" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Field>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="68" end="68" startBytecode="5" endBytecode="5" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.BranchCreate">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Class>
+    <Field classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" name="commitMsg" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+    </Field>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.BranchCreate" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="BranchCreate.java" sourcepath="org/jenkins/GitCreateBranchPlugin/BranchCreate.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="post" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="151" end="174" startBytecode="0" endBytecode="70" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <LocalVariable name="response" register="11" pc="164" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="173" end="173" startBytecode="162" endBytecode="162" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="173" end="173" startBytecode="162" endBytecode="162" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="response"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="225" end="266" startBytecode="0" endBytecode="648" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="247" end="247" startBytecode="125" endBytecode="125" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="247" end="247" startBytecode="125" endBytecode="125" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="getAuthentication" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="80" end="110" startBytecode="0" endBytecode="620" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="96" end="96" startBytecode="85" endBytecode="85" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="96" end="96" startBytecode="85" endBytecode="85" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="getAuthentication" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="80" end="110" startBytecode="0" endBytecode="620" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="95" end="95" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="95" end="95" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="masterSha" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="179" end="218" startBytecode="0" endBytecode="667" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="200" end="200" startBytecode="133" endBytecode="133" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="200" end="200" startBytecode="133" endBytecode="133" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="host" register="1" pc="69" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="71" endBytecode="71" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="port" register="2" pc="75" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="77" endBytecode="77" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="77" endBytecode="77" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="pwd" register="4" pc="88" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="90" endBytecode="90" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="90" endBytecode="90" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="user" register="3" pc="81" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="83" endBytecode="83" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="83" endBytecode="83" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="225" end="266" startBytecode="0" endBytecode="648" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="387" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="122" end="122" startBytecode="29" endBytecode="29" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="125" end="125" startBytecode="35" endBytecode="35" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="126" end="126" startBytecode="43" endBytecode="43" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="127" end="127" startBytecode="51" endBytecode="51" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="128" end="128" startBytecode="59" endBytecode="59" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="132" end="132" startBytecode="68" endBytecode="68" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="145" end="145" startBytecode="172" endBytecode="172" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="BranchesInRepo" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="225" end="266" startBytecode="0" endBytecode="107" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="247" end="247" startBytecode="112" endBytecode="112" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="247" end="247" startBytecode="112" endBytecode="112" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="masterSha" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="179" end="218" startBytecode="0" endBytecode="116" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="200" end="200" startBytecode="120" endBytecode="120" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="200" end="200" startBytecode="120" endBytecode="120" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Class>
+    <Method classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" name="proxy" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="115" end="145" startBytecode="0" endBytecode="88" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="122" end="122" startBytecode="24" endBytecode="24" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+    <SourceLine classname="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" start="122" end="122" startBytecode="24" endBytecode="24" sourcefile="CommonUtilsGit.java" sourcepath="org/jenkins/GitCreateBranchPlugin/CommonUtilsGit.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 6 Oct 2016 12:29:44 +0530" total_classes="3" referenced_classes="138" total_bugs="18" total_size="179" num_packages="1" java_version="1.8.0_102" vm_version="25.102-b14" cpu_seconds="4.18" clock_seconds="3.31" peak_mbytes="497.37" alloc_mbytes="494.94" gc_seconds="0.19" priority_2="11" priority_1="7">
+    <PackageStats package="org.jenkins.GitCreateBranchPlugin" total_bugs="18" total_types="3" total_size="179" priority_2="11" priority_1="7">
+      <ClassStats class="org.jenkins.GitCreateBranchPlugin.BranchCreate" sourceFile="BranchCreate.java" interface="false" size="50" bugs="4" priority_2="1" priority_1="3"/>
+      <ClassStats class="org.jenkins.GitCreateBranchPlugin.BranchCreate$DescriptorImpl" sourceFile="BranchCreate.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.jenkins.GitCreateBranchPlugin.CommonUtilsGit" sourceFile="CommonUtilsGit.java" interface="false" size="120" bugs="14" priority_2="10" priority_1="4"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="713" invocations="2" avgMicrosecondsPerInvocation="356742" maxMicrosecondsPerInvocation="682013" standardDeviationMircosecondsPerInvocation="325271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="639" invocations="1651" avgMicrosecondsPerInvocation="387" maxMicrosecondsPerInvocation="50215" standardDeviationMircosecondsPerInvocation="1760"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="448" invocations="1648" avgMicrosecondsPerInvocation="272" maxMicrosecondsPerInvocation="6766" standardDeviationMircosecondsPerInvocation="531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="211" invocations="606" avgMicrosecondsPerInvocation="348" maxMicrosecondsPerInvocation="50030" standardDeviationMircosecondsPerInvocation="2046"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="204" invocations="138" avgMicrosecondsPerInvocation="1479" maxMicrosecondsPerInvocation="15094" standardDeviationMircosecondsPerInvocation="2460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="203" invocations="138" avgMicrosecondsPerInvocation="1474" maxMicrosecondsPerInvocation="15479" standardDeviationMircosecondsPerInvocation="2484"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="120" invocations="206" avgMicrosecondsPerInvocation="583" maxMicrosecondsPerInvocation="6441" standardDeviationMircosecondsPerInvocation="495"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1475737129504" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1475737129520" release="" codeSize="179" numClasses="3"/>
+  </History>
+</BugCollection>

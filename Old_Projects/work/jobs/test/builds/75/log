@@ -1,0 +1,27 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT+gO40Avk0oH8QAAAA=[0mNode2 in workspace /var/tmp/Jenkins_Slave/workspace/test
+$ /home/jenkins/analyze-local-images -endpoint http://10.242.138.116:6060 -my-address 10.242.138.115 jenkins
+2017-03-29 15:38:35.702244 I | Saving jenkins to local disk (this may take some time)
+2017-03-29 15:38:57.166522 I | Retrieving image history
+2017-03-29 15:38:57.174133 I | Setting up HTTP server (allowing: 10.242.138.116)
+2017-03-29 15:38:57.274588 I | Analyzing 19 layers... 
+2017-03-29 15:38:57.274625 I | Analyzing bffd0cf2a38424e6ba3740a575c945c3738fbd1e98977ff18f04cdbf264398c2
+2017-03-29 15:39:43.383162 I | Could not analyze layer: Post http://10.242.138.116:6060/v1/layers: read tcp 10.242.138.115:33212->10.232.207.154:6050: read: connection reset by peer
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Scanner.java:862)
+	at java.util.Scanner.next(Scanner.java:1371)
+	at org.jenkinsci.plugins.clairdockerscannerbuildstep.Text_HTMLConverter.text_to_html(Text_HTMLConverter.java:54)
+	at org.jenkinsci.plugins.clairdockerscannerbuildstep.ScannerExecuter.execute(ScannerExecuter.java:97)
+	at org.jenkinsci.plugins.clairdockerscannerbuildstep.ClairDockerScannerBuilder.perform(ClairDockerScannerBuilder.java:131)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:785)
+	at hudson.model.Build$BuildExecution.build(Build.java:205)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:162)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:537)
+	at hudson.model.Run.execute(Run.java:1741)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:408)
+Build step 'Clair Docker Vulnerability Scanner' marked build as failure
+Finished: FAILURE

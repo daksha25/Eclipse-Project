@@ -1,0 +1,66 @@
+<project name="Hello" default="ear">
+
+	<property name="src" value="src"/>
+	<property name="lib" value="lib"/>
+	<property name="build" value="build/classes"/>
+
+	
+
+	<path id="classpath">
+		<pathelement location="${src}"/>
+		<fileset dir="${lib}"/>
+
+	</path>
+
+	
+
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes" />
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="false"  compiler="javac1.8">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/Hello.jar" basedir="build/classes">
+		</jar>
+	</target>
+	<target name="war" depends="jar">
+		<mkdir dir="build/war" />
+			<war destfile="build/war/Hello.war" webxml="webapp/WEB-INF/web.xml">
+			  <lib dir="${lib}" />
+			  <classes dir="${build}"/>
+			  <zipfileset dir="${build}"  /> 
+			</war>
+		</target>
+<target name="ear" depends="war">
+	<mkdir dir="build/ear" />
+			<ear destfile="build/ear/Hello.ear" appxml="webapp/WEB-INF/application.xml">
+				<fileset dir="${build}" includes="*.war" />
+			</ear>
+		</target>
+	<!--<target name="sonar" depends="clean, compile">
+
+		<property name="build.version" value="0.0.0.2-Sonar"/>
+		<property name="sonar.projectName" value="Hello" />
+	
+		<property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="sonar.host.url" value="http://localhost:9000" />
+		<property name="sonar.projectKey" value="HelloWorld" />
+		<property name="sonar.projectVersion" value="1.0" />
+		<property name="sonar.sources" value="${src}" />
+		<property name="sonar.java.binaries" value="${build}"/>
+	
+			<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+					<classpath path="/Hello/lib/sonar-ant-task-2.0.jar" />
+				</taskdef>
+		<sonar:sonar xmlns:sonar="antlib:org.sonar.ant"/>
+	</target> 
+-->
+	
+	
+</project>
